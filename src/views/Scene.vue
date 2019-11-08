@@ -3,9 +3,14 @@
 
     <div class="nerve">
       <div class="w1200">
-        <h2 class="title">Nerve 连接区块链孤岛的桥</h2>
-        <p class="info">
-          Nerve提供了一套去中心化的数字资产服务网络。旨在打破区块链价值孤岛，建立跨链互通的资产交互网络，为Defi应用生态提供一切需要的底层支持。让数字资产持有者享受真正安全、自由、透明的Defi应用服务。</p>
+        <div class="fl">
+          <h2 class="title">Nerve 连接区块链孤岛的桥</h2>
+          <p class="info">
+            Nerve提供了一套去中心化的数字资产服务网络。旨在打破区块链价值孤岛，建立跨链互通的资产交互网络，为Defi应用生态提供一切需要的底层支持。让数字资产持有者享受真正安全、自由、透明的Defi应用服务。</p>
+        </div>
+        <div class="fr">
+          <img src="./../assets/img/bg1.png">
+        </div>
       </div>
     </div>
 
@@ -23,7 +28,7 @@
           <p class="info">对比特币、以太坊、币安链等独立的公链，Nerve定义一套接口协议，可以方便的实现各种不同区块链的交互。</p>
         </div>
         <div class="fr">
-          <img src="./../assets/img/header-bg.png">
+          <img src="./../assets/img/bg2.png">
         </div>
       </div>
     </div>
@@ -31,7 +36,7 @@
     <div class="payment">
       <div class="w1200">
         <div class="fl">
-          <img src="./../assets/img/header-bg.png">
+          <img src="./../assets/img/bg3.png">
         </div>
         <div class="fr">
           <h2 class="title">快速支付</h2>
@@ -47,7 +52,7 @@
           <p class="info">Nerve的通用跨链协议，支持不同币种间进行跨币种清算/结算</p>
         </div>
         <div class="fr">
-          <img src="./../assets/img/header-bg.png">
+          <img src="./../assets/img/bg4.png">
         </div>
       </div>
     </div>
@@ -55,7 +60,7 @@
     <div class="staking">
       <div class="w1200">
         <div class="fl">
-          <img src="./../assets/img/header-bg.png">
+          <img src="./../assets/img/bg5.png">
         </div>
         <div class="fr">
           <h2 class="title">多资产Staking</h2>
@@ -74,7 +79,7 @@
 
 <script>
   export default {
-    name: 'home',
+    name: 'scene',
   }
 </script>
 <style lang="less">
@@ -82,9 +87,17 @@
     .nerve {
       height: 650px;
       padding-top: 200px;
-      .info {
-        width: 50%;
+      .fl {
+        width: 600px;
       }
+      .fr {
+        width: 600px;
+        text-align: right;
+        img {
+          width: 582px;
+        }
+      }
+
     }
     .application {
       height: 300px;

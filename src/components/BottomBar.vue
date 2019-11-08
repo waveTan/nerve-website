@@ -2,7 +2,7 @@
   <div class="bottom cb">
     <div class="w1200">
       <div class="bottom-logo fl">
-        <img src="./../assets/logo.png">
+        <img src="./../assets/img/bottem-logo.png">
         <p class="font14">NULS Foundation 250 W.Tasman Dr.,Suite 180,San Jose,CA 95134</p>
       </div>
       <div class="bottom-right fr">
@@ -89,8 +89,8 @@
     .bottom-logo {
       width: 250px;
       img {
-        width: 180px;
-        height: 50px;
+        width: 173px;
+        height: 45px;
         margin: 50px 0;
       }
       p {

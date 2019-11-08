@@ -1,7 +1,5 @@
 <template>
-  <div id="app" class="app">
-    <!--<div class="bg1"></div>-->
-    <!--<div class="bg2"></div>-->
+  <div id="app" class="app" :class="bgChoice ? 'home-bg': 'bg'">
     <HeaderBar>
     </HeaderBar>
     <router-view>
@@ -15,11 +13,45 @@
   import BottomBar from './components/BottomBar'
 
   export default {
+    data() {
+      return {
+        bgChoice: true,
+      };
+    },
     components: {
       HeaderBar,
       BottomBar
     },
-    methods: {}
+    watch: {
+      $route(to) {
+        if (to.path === '/home' || to.path === '/') {
+          this.bgChoice = true
+        } else {
+          this.bgChoice = false
+        }
+      }
+    },
+    created() {
+      this.getPath();
+    },
+    mounted() {
+    },
+    methods: {
+
+      /**
+       * @disc: 路由变化
+       * @date: 2019-11-08 10:06
+       * @author: Wave
+       */
+      getPath() {
+        if (this.$route.path === '/home' || to.path === '/') {
+          this.bgChoice = true
+        } else {
+          this.bgChoice = false
+        }
+      }
+
+    }
   }
 </script>
 
@@ -27,28 +59,19 @@
   @import "assets/css/base.less";
 
   .app {
-    .bg1 {
-      width: 1400px;
-      height: 1600px;
-      border-radius: 50px;
-      background-color: #1a56a4;
-      border: 1px solid darkgoldenrod;
-      z-index: 1;
-      position: absolute;
-      right: 0;
-      -webkit-transform: rotate(300deg);
-      margin: -1100px 50px 0 0;
-    }
-    .bg2 {
-      width: 800px;
-      height: 1000px;
-      border-radius: 50px;
-      background-color: #f6f9fe;
-      border: 1px solid red;
-      z-index: 1;
-      position: absolute;
-      -webkit-transform: rotate(340deg);
-      margin: 350px 0 0 0;
-    }
+    width: 100%;
+    background-size: 100% 100%;
   }
+
+  .home-bg {
+    height: 6200px;
+    background: #ffffff url("./assets/img/home-bg.png") repeat-y;
+
+  }
+
+  .bg {
+    height: 4260px;
+    background: #ffffff url("./assets/img/scene-bg.png") repeat-y;
+  }
+
 </style>

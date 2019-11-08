@@ -2,10 +2,10 @@
   <div class="header">
     <div class="w1200">
       <div class="logo fl">
-        <img class="click" @click="toUrl('home')" src="./../assets/logo.png">
+        <img class="click" @click="toUrl('home')" src="./../assets/logo.svg">
       </div>
       <div class="menu fl">
-        <el-menu :default-active="activeIndex" mode="horizontal" @select="handleSelect">
+        <el-menu :default-active="activeIndex" mode="horizontal" active-text-color="#79a7e4" @select="handleSelect">
           <el-menu-item index="scene">场景</el-menu-item>
           <el-menu-item index="wiring">线路图</el-menu-item>
           <el-menu-item index="library">文档库</el-menu-item>
@@ -37,6 +37,8 @@
         console.log(key);
         if (key === 'scene') {
           this.toUrl(key)
+        } else if (key === 'team') {
+          this.toUrl(key)
         }
       },
 
@@ -57,21 +59,17 @@
 <style lang="less">
   .header {
     height: 100px;
-    /*position: absolute;
-    z-index: 99;*/
-    //background: #73ADD7 url("./../assets/img/header-bg.png") repeat-x;
-    background-image: linear-gradient(to right, #ffffff 33%, #1a56a4 20%, #1a56a4 60%);
     .logo {
-      width: 100px;
-      margin: 30px 0 0 0;
+      width: 201px;
+      margin: 15px 0 0 0;
       img {
-        width: 100px;
-        height: 40px;
+        width: 100%;
+        height: 73px;
       }
     }
     .menu {
-      width: 850px;
-      margin-left: 250px;
+      width: 799px;
+      margin-left: 520px;
       .el-menu {
         background-color: transparent;
         margin: 40px 0 0 0;
@@ -93,7 +91,7 @@
     }
     .language {
       margin: 5px 0 0 0;
-      height: 30px;
+      height: 20px;
       color: #ffffff;
     }
   }

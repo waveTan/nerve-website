@@ -13,17 +13,17 @@
         <h2 class="title tc">特点</h2>
         <ul>
           <li class="fl">
-            <img src="./../assets/img/header-bg.png">
+            <img src="./../assets/img/trait1.png">
             <h3 class="font20">快速</h3>
             <p class="font14">跨链闪电网络上千TPS,一秒确认</p>
           </li>
           <li class="fl">
-            <img src="./../assets/img/header-bg.png">
+            <img src="./../assets/img/trait2.png">
             <h3>快速</h3>
             <p>跨链闪电网络上千TPS,一秒确认</p>
           </li>
           <li class="fl">
-            <img src="./../assets/img/header-bg.png">
+            <img src="./../assets/img/trait3.png">
             <h3>快速</h3>
             <p>跨链闪电网络上千TPS,一秒确认</p>
           </li>
@@ -38,22 +38,22 @@
           ChainBox开发搭建的区块链跨链交互协议。旨在打破区块链价值孤岛，建立跨链互通的资产交互网络，为Defi应用生态提供一切需要的底层支持。让数字资产持有者享受真正安全、自由、透明的Defi应用服务。</p>
         <ul>
           <li class="fl">
-            <img src="./../assets/img/header-bg.png">
+            <img src="./../assets/img/whatNerve1.png">
             <h3>异构跨链</h3>
             <p>打开主流数字资产的区块链闭环，可以快速转移各不同结构区块链中的资产</p>
           </li>
           <li class="fl">
-            <img src="./../assets/img/header-bg.png">
+            <img src="./../assets/img/whatNerve2.png">
             <h3>异构跨链</h3>
             <p>打开主流数字资产的区块链闭环，可以快速转移各不同结构区块链中的资产</p>
           </li>
           <li class="fl">
-            <img src="./../assets/img/header-bg.png">
+            <img src="./../assets/img/whatNerve3.png">
             <h3>异构跨链</h3>
             <p>打开主流数字资产的区块链闭环，可以快速转移各不同结构区块链中的资产</p>
           </li>
           <li class="fl">
-            <img src="./../assets/img/header-bg.png">
+            <img src="./../assets/img/whatNerve4.png">
             <h3>异构跨链</h3>
             <p>打开主流数字资产的区块链闭环，可以快速转移各不同结构区块链中的资产</p>
           </li>
@@ -68,7 +68,7 @@
           <p class="info">对比特币、以太坊、币安链等独立的公链，Nerve定义一套接口协议，可以方便的实现各种不同区块链的交互。</p>
         </div>
         <div class="fr">
-          <img src="./../assets/img/header-bg.png">
+          <img src="./../assets/img/crossLink1.png">
         </div>
       </div>
     </div>
@@ -76,7 +76,7 @@
     <div class="consensus">
       <div class="w1200">
         <div class="fl">
-          <img src="./../assets/img/header-bg.png">
+          <img src="./../assets/img/consensus1.png">
         </div>
         <div class="fr">
           <h2 class="title">共识机制</h2>
@@ -92,7 +92,7 @@
           <p class="info">对比特币、以太坊、币安链等独立的公链，Nerve定义一套接口协议，可以方便的实现各种不同区块链的交互。</p>
         </div>
         <div class="fr">
-          <img src="./../assets/img/header-bg.png">
+          <img src="./../assets/img/feed1.png">
         </div>
       </div>
     </div>
@@ -101,14 +101,14 @@
       <h2 class="title tc">线路图</h2>
       <div class="line-top w1200">
         <div class="fl one">
-          <img class="fl" src="./../assets/img/header-bg.png">
+          <img class="fl" src="./../assets/img/fine1.png">
           <div class="fl">
             <h3>Nerve 主网上线</h3>
             <p>Nerve主网上线，轻钱包上线，开启Staking，开放对外接口</p>
           </div>
         </div>
         <div class="fl two">
-          <img class="fl" src="./../assets/img/header-bg.png">
+          <img class="fl" src="./../assets/img/fine2.png">
           <div class="fl">
             <h3>Nerve 主网上线</h3>
             <p>Nerve主网上线，轻钱包上线，开启Staking，开放对外接口</p>
@@ -125,14 +125,14 @@
       </div>
       <div class="line-bottom w1200">
         <div class="fl one">
-          <img class="fl" src="./../assets/img/header-bg.png">
+          <img class="fl" src="./../assets/img/fine3.png">
           <div class="fl">
             <h3>Nerve 主网上线</h3>
             <p>Nerve主网上线，轻钱包上线，开启Staking，开放对外接口</p>
           </div>
         </div>
         <div class="fl two">
-          <img class="fl" src="./../assets/img/header-bg.png">
+          <img class="fl" src="./../assets/img/fine4.png">
           <div class="fl">
             <h3>Nerve 主网上线</h3>
             <p>Nerve主网上线，轻钱包上线，开启Staking，开放对外接口</p>
@@ -146,26 +146,33 @@
         <h2 class="title tc">合作伙伴</h2>
         <ul>
           <li class="fl">
-            <img src="./../assets/img/header-bg.png">
+            <img src="./../assets/img/partner1.png">
           </li>
           <li class="fl">
-            <img src="./../assets/img/header-bg.png">
+            <img src="./../assets/img/partner2.png">
           </li>
           <li class="fl">
-            <img src="./../assets/img/header-bg.png">
+            <img src="./../assets/img/partner1.png">
           </li>
           <li class="fl">
-            <img src="./../assets/img/header-bg.png">
+            <img src="./../assets/img/partner2.png">
           </li>
           <li class="fl">
-            <img src="./../assets/img/header-bg.png">
+            <img src="./../assets/img/partner1.png">
           </li>
           <li class="fl">
-            <img src="./../assets/img/header-bg.png">
+            <img src="./../assets/img/partner2.png">
+          </li>
+          <li class="fl">
+            <img src="./../assets/img/partner1.png">
+          </li>
+          <li class="fl">
+            <img src="./../assets/img/partner2.png">
           </li>
         </ul>
       </div>
     </div>
+    <div class="cb"></div>
 
   </div>
 </template>
@@ -173,20 +180,27 @@
 <script>
   export default {
     name: 'home',
+    data() {
+      return {};
+    },
+    components: {},
+    watch: {},
+    created() {
+    },
+    mounted() {
+    },
+    methods: {}
   }
 </script>
 <style lang="less">
   .home {
-    height: 100px;
-    /* position: absolute;
-     z-index: 99;
-     margin: 100px 0 0 0;*/
     .nerve {
-      height: 650px;
-      padding-top: 200px;
+      height: 750px;
+      padding-top: 300px;
     }
     .trait {
-      height: 600px;
+      height: 800px;
+      margin: 120px 0 0 0;
       ul {
         li {
           width: 300px;
@@ -218,7 +232,7 @@
     .what-Nerve {
       height: 800px;
       .info {
-        margin: 50px 0;
+        margin: 50px 0 150px 0;
         line-height: 30px;
       }
       ul {
@@ -246,8 +260,8 @@
       }
     }
     .cross-link {
-      height: 700px;
-      padding-top: 200px;
+      height: 600px;
+      padding-top: 300px;
       .fl {
         width: 50%;
       }
@@ -280,7 +294,7 @@
       }
     }
     .line {
-      height: 700px;
+      height: 860px;
       margin: 0 0 0 0;
       .line-top {
         height: 100px;
@@ -301,10 +315,10 @@
             margin: 0 0 0 10px;
           }
         }
-        .one{
+        .one {
           width: 50%;
         }
-        .two{
+        .two {
           margin: 0 0 0 20px;
         }
       }
@@ -345,11 +359,11 @@
             margin: 0 0 0 10px;
           }
         }
-        .one{
+        .one {
           margin: 20px 0 0 400px;
           z-index: 33;
         }
-        .two{
+        .two {
           width: 370px;
           margin: 20px 0 0 270px;
           position: absolute;
@@ -357,9 +371,8 @@
         }
       }
     }
-
     .partner {
-      height: 500px;
+      height: 510px;
       ul {
         li {
           width: 25%;

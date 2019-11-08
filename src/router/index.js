@@ -10,10 +10,21 @@ const routes = [
     component: () => import('../views/Home.vue')
   },
   {
+    path: '/home',
+    name: 'home',
+    component: () => import('../views/Home.vue')
+  },
+  {
     path: '/scene',
     name: 'scene',
     component: () => import('../views/Scene.vue')
   },
+  {
+    path: '/team',
+    name: 'team',
+    component: () => import('../views/Team.vue')
+  },
+
 ];
 
 const router = new VueRouter({
