@@ -1,0 +1,98 @@
+import enLocale from 'element-ui/lib/locale/lang/en'
+
+const en = {
+
+  "nav": {
+    "scene": "Scene",
+    "library": "Library",
+    "team": "Team",
+    "whiteBook": "White Book",
+  },
+
+  "home": {
+    "home0": "Nerve neural network",
+    "home1": "Decentralized digital asset service network",
+    "home2": "Characteristic",
+    "home3": "Speediness",
+    "home4": "Cross chain lightning network thousands of TPS, one second confirmation",
+    "home5": "Speedy",
+    "home6": "A variety of mainstream assets docking chain, multi - chain connectivity",
+    "home7": "Stabilization",
+    "home8": "A mature NULS microservice architecture was developed using NULS ChainBox",
+    "home9": "What Nerve",
+    "home10": "Nerve is a decentralized digital asset service network. It is a block chain cross-chain interaction protocol developed and built based on NULS microservice framework using nuls-chainbox.It aims to break the value island of blockchain, establish the asset interaction network of cross-chain communication, and provide all the necessary underlying support for Defi application ecology.Enable digital asset holders to enjoy truly secure, free and transparent Defi application services.",
+    "home11": "Heterogeneous across the chain",
+    "home12": "Open the blockchain closed loop of the mainstream digital assets, which can quickly transfer the assets in the blockchain of different structures",
+    "home13": "Lightning network",
+    "home14": "A new smart lightning network for digital assets, second level confirmation, low fees",
+    "home15": "Generic cross-chain protocol",
+    "home16": "Access Nerve, or access to more mainstream digital assets",
+    "home17": "DeFi infrastructure",
+    "home18": "Multi-asset, open and transparent value interaction platform provides the underlying support for the Defi application ecosystem",
+    "home19": "Across the chain",
+    "home20": "For independent public chains such as bitcoin, ethereum and cryptocurrency, Nerve defines a set of interface protocols to facilitate the interaction of various blockchains.",
+    "home21": "Consensus mechanism ",
+    "home22": "POCBFT is an efficient and stable consensus algorithm designed and applied by Nerve.",
+    "home23": "Hello price mechanism",
+    "home24": "Ensure that each consensus node provides an accurate average price of multiple exchanges, predictors, or quote institutions.Update and write blocks in a timely manner.",
+
+    "home25": "Circuit diagram ",
+    "home26": "Nerve main online",
+    "home27": "Nerve main network online, light wallet online, open Staking, open external interface",
+    "home28": "Get through mainstream assets like BCH",
+    "home29": "Realize cross-chain interaction of mainstream digital assets such as BCH without intelligent contract function.NDEX allows more mainstream digital assets to circulate and trade freely.",
+    "home30": "Get through BTC ETH, go online NDEX",
+    "home31": "Realize the cross-chain interaction of BTC ETH ERC20, launch the application of NDEX on the chain, support the cross-chain transaction between NRC20 assets, Nerve and NULS assets.",
+    "home32": "Get through more stable assets and open OTC functions",
+    "home33": "Realize the market value of 10 types of digital assets.Access OTC features and more stable assets PAX, DAI, etc",
+    "home34": "Partner",
+    "home": "",
+  },
+
+  "scene": {
+    "scene0": "Nerve bridges to blockchain islands",
+    "scene1": "Nerve offers a decentralized network of digital asset services.It aims to break the value island of blockchain, establish the asset interaction network of cross-chain communication, and provide all the necessary underlying support for Defi application ecology.Enable digital asset holders to enjoy truly secure, free and transparent Defi application services.",
+    "scene2": "Application scenarios",
+    "scene3": "Nerve is tailored to meet your cross-chain needs, providing all the underlying support you need for the Defi application ecosystem.",
+    "scene4": "Bourse",
+    "scene5": "Provide the underlying technical support for the exchange, get through the mainstream chain, realize the heterogeneous chain trans-chain transfer, second level confirmation",
+    "scene6": "Fast payment",
+    "scene7": "Cross - chain lightning network technology, can support different currencies cross - chain trading, thousands of high TPS and low handling fees can support concurrent high - frequency small payment.",
+    "scene8": "Cross currency clearing/settlement",
+    "scene9": "Nerve's universal cross-chain protocol supports cross-currency clearing/settlement between currencies",
+    "scene10": "More assets Staking",
+    "scene11": "A variety of different assets can be used to participate in the construction and entrustment of Nerve consensus node across assets, so as to obtain consensus rewards while ensuring the normal operation of the node.",
+    "scene12": "More scenes",
+    "scene13": "Open genes are about to open up more possibilities",
+    "scene": "",
+  },
+
+  "team": {
+    "team0": "Initiator",
+    "team1": "NTC Team",
+    "team2": "Architect",
+    "team3": "China",
+    "team4": "Full stack engineer",
+    "team5": "French",
+    "team6": "Spain",
+    "team7": "UI/UX Designers",
+    "team8": "Belgium",
+    "team9": "Java Engineer",
+    "team10": "Singapore",
+    "team11": "Animator",
+    "team12": "Australian",
+    "team13": "PM",
+    "team15": "America",
+    "team16": "WEB Engineer",
+    "team17": "Test engineer",
+    "team": "",
+  },
+
+  "bottom": {
+    "foundation": "Foundation",
+    "beLocated": "250 W.Tasman Dr.,Suite 180,San Jose,CA 95134",
+  },
+  ...enLocale
+
+};
+export default en

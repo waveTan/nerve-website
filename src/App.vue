@@ -59,18 +59,18 @@
   @import "assets/css/base.less";
 
   .app {
-    width: 100%;
+    min-width: 1520px;
     background-size: 100% 100%;
   }
 
   .home-bg {
-    height: 6200px;
+    min-height: 6200px;
     background: #ffffff url("./assets/img/home-bg.png") repeat-y;
 
   }
 
   .bg {
-    height: 4260px;
+    min-height: 4260px;
     background: #ffffff url("./assets/img/scene-bg.png") repeat-y;
   }
 

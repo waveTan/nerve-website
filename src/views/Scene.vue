@@ -4,9 +4,8 @@
     <div class="nerve">
       <div class="w1200">
         <div class="fl">
-          <h2 class="title">Nerve 连接区块链孤岛的桥</h2>
-          <p class="info">
-            Nerve提供了一套去中心化的数字资产服务网络。旨在打破区块链价值孤岛，建立跨链互通的资产交互网络，为Defi应用生态提供一切需要的底层支持。让数字资产持有者享受真正安全、自由、透明的Defi应用服务。</p>
+          <h2 class="title">{{$t('scene.scene0')}}</h2>
+          <p class="info">{{$t('scene.scene1')}}</p>
         </div>
         <div class="fr">
           <img src="./../assets/img/bg1.png">
@@ -16,16 +15,16 @@
 
     <div class="application">
       <div class="w1200">
-        <h2 class="title tc">应用场景</h2>
-        <p class="info tc">Nerve专为满足您的跨链需求而量身定制，为Defi应用生态提供一切需要的底层支持。</p>
+        <h2 class="title tc">{{$t('scene.scene2')}}</h2>
+        <p class="info tc">{{$t('scene.scene3')}}</p>
       </div>
     </div>
 
     <div class="exchange">
       <div class="w1200">
         <div class="fl">
-          <h2 class="title">交易所</h2>
-          <p class="info">对比特币、以太坊、币安链等独立的公链，Nerve定义一套接口协议，可以方便的实现各种不同区块链的交互。</p>
+          <h2 class="title">{{$t('scene.scene4')}}</h2>
+          <p class="info">{{$t('scene.scene5')}}</p>
         </div>
         <div class="fr">
           <img src="./../assets/img/bg2.png">
@@ -39,8 +38,8 @@
           <img src="./../assets/img/bg3.png">
         </div>
         <div class="fr">
-          <h2 class="title">快速支付</h2>
-          <p class="info">对比特币、以太坊、币安链等独立的公链，Nerve定义一套接口协议，可以方便的实现各种不同区块链的交互。</p>
+          <h2 class="title">{{$t('scene.scene6')}}</h2>
+          <p class="info">{{$t('scene.scene7')}}</p>
         </div>
       </div>
     </div>
@@ -48,8 +47,8 @@
     <div class="Settlement">
       <div class="w1200">
         <div class="fl">
-          <h2 class="title">跨币种清算/结算</h2>
-          <p class="info">Nerve的通用跨链协议，支持不同币种间进行跨币种清算/结算</p>
+          <h2 class="title">{{$t('scene.scene8')}}</h2>
+          <p class="info">{{$t('scene.scene9')}}</p>
         </div>
         <div class="fr">
           <img src="./../assets/img/bg4.png">
@@ -63,15 +62,15 @@
           <img src="./../assets/img/bg5.png">
         </div>
         <div class="fr">
-          <h2 class="title">多资产Staking</h2>
-          <p class="info">可用多种不同资产，跨资产参与Nerve共识节点的建设和委托，在保障节点正常运营的同时，获得共识奖励。</p>
+          <h2 class="title">{{$t('scene.scene10')}}</h2>
+          <p class="info">{{$t('scene.scene11')}}</p>
         </div>
       </div>
     </div>
 
     <div class="more tc">
-      <h2 class="title">更多场景</h2>
-      <p class="info">开放的基因即将涌现更多的可能性</p>
+      <h2 class="title">{{$t('scene.scene12')}}</h2>
+      <p class="info">{{$t('scene.scene13')}}</p>
     </div>
 
   </div>

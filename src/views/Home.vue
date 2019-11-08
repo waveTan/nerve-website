@@ -3,29 +3,29 @@
 
     <div class="nerve">
       <div class="w1200">
-        <h2 class="title">Nerve 神经网络</h2>
-        <p class="info">去中心化的数字资产服务网络</p>
+        <h2 class="title">{{$t('home.home0')}}</h2>
+        <p class="info">{{$t('home.home1')}}</p>
       </div>
     </div>
 
     <div class="trait">
       <div class="w1200">
-        <h2 class="title tc">特点</h2>
+        <h2 class="title tc">{{$t('home.home2')}}</h2>
         <ul>
           <li class="fl">
             <img src="./../assets/img/trait1.png">
-            <h3 class="font20">快速</h3>
-            <p class="font14">跨链闪电网络上千TPS,一秒确认</p>
+            <h3 class="font20">{{$t('home.home3')}}</h3>
+            <p class="font14">{{$t('home.home4')}}</p>
           </li>
           <li class="fl">
             <img src="./../assets/img/trait2.png">
-            <h3>快速</h3>
-            <p>跨链闪电网络上千TPS,一秒确认</p>
+            <h3>{{$t('home.home5')}}</h3>
+            <p>{{$t('home.home6')}}</p>
           </li>
           <li class="fl">
             <img src="./../assets/img/trait3.png">
-            <h3>快速</h3>
-            <p>跨链闪电网络上千TPS,一秒确认</p>
+            <h3>{{$t('home.home7')}}</h3>
+            <p>{{$t('home.home8')}}</p>
           </li>
         </ul>
       </div>
@@ -33,29 +33,28 @@
 
     <div class="what-Nerve">
       <div class="w1200">
-        <h2 class="title tc">什么是Nerve</h2>
-        <p class="info">Nerve是一个去中心化的数字资产服务网络，它是基于NULS微服务框架，使用NULS
-          ChainBox开发搭建的区块链跨链交互协议。旨在打破区块链价值孤岛，建立跨链互通的资产交互网络，为Defi应用生态提供一切需要的底层支持。让数字资产持有者享受真正安全、自由、透明的Defi应用服务。</p>
+        <h2 class="title tc">{{$t('home.home9')}}</h2>
+        <p class="info">{{$t('home.home10')}}</p>
         <ul>
           <li class="fl">
             <img src="./../assets/img/whatNerve1.png">
-            <h3>异构跨链</h3>
-            <p>打开主流数字资产的区块链闭环，可以快速转移各不同结构区块链中的资产</p>
+            <h3>{{$t('home.home11')}}</h3>
+            <p>{{$t('home.home12')}}</p>
           </li>
           <li class="fl">
             <img src="./../assets/img/whatNerve2.png">
-            <h3>异构跨链</h3>
-            <p>打开主流数字资产的区块链闭环，可以快速转移各不同结构区块链中的资产</p>
+            <h3>{{$t('home.home13')}}</h3>
+            <p>{{$t('home.home14')}}</p>
           </li>
           <li class="fl">
             <img src="./../assets/img/whatNerve3.png">
-            <h3>异构跨链</h3>
-            <p>打开主流数字资产的区块链闭环，可以快速转移各不同结构区块链中的资产</p>
+            <h3>{{$t('home.home15')}}</h3>
+            <p>{{$t('home.home16')}}</p>
           </li>
           <li class="fl">
             <img src="./../assets/img/whatNerve4.png">
-            <h3>异构跨链</h3>
-            <p>打开主流数字资产的区块链闭环，可以快速转移各不同结构区块链中的资产</p>
+            <h3>{{$t('home.home17')}}</h3>
+            <p>{{$t('home.home18')}}</p>
           </li>
         </ul>
       </div>
@@ -64,8 +63,8 @@
     <div class="cross-link">
       <div class="w1200">
         <div class="fl">
-          <h2 class="title">跨链</h2>
-          <p class="info">对比特币、以太坊、币安链等独立的公链，Nerve定义一套接口协议，可以方便的实现各种不同区块链的交互。</p>
+          <h2 class="title">{{$t('home.home19')}}</h2>
+          <p class="info">{{$t('home.home20')}}</p>
         </div>
         <div class="fr">
           <img src="./../assets/img/crossLink1.png">
@@ -79,8 +78,8 @@
           <img src="./../assets/img/consensus1.png">
         </div>
         <div class="fr">
-          <h2 class="title">共识机制</h2>
-          <p class="info">对比特币、以太坊、币安链等独立的公链，Nerve定义一套接口协议，可以方便的实现各种不同区块链的交互。</p>
+          <h2 class="title">{{$t('home.home21')}}</h2>
+          <p class="info">{{$t('home.home22')}}</p>
         </div>
       </div>
     </div>
@@ -88,8 +87,8 @@
     <div class="feed">
       <div class="w1200">
         <div class="fl">
-          <h2 class="title">喂价机制</h2>
-          <p class="info">对比特币、以太坊、币安链等独立的公链，Nerve定义一套接口协议，可以方便的实现各种不同区块链的交互。</p>
+          <h2 class="title">{{$t('home.home23')}}</h2>
+          <p class="info">{{$t('home.home24')}}</p>
         </div>
         <div class="fr">
           <img src="./../assets/img/feed1.png">
@@ -98,20 +97,20 @@
     </div>
 
     <div class="line">
-      <h2 class="title tc">线路图</h2>
+      <h2 class="title tc">{{$t('home.home25')}}</h2>
       <div class="line-top w1200">
         <div class="fl one">
           <img class="fl" src="./../assets/img/fine1.png">
           <div class="fl">
-            <h3>Nerve 主网上线</h3>
-            <p>Nerve主网上线，轻钱包上线，开启Staking，开放对外接口</p>
+            <h3>{{$t('home.home26')}}</h3>
+            <p>{{$t('home.home27')}}</p>
           </div>
         </div>
         <div class="fl two">
           <img class="fl" src="./../assets/img/fine2.png">
           <div class="fl">
-            <h3>Nerve 主网上线</h3>
-            <p>Nerve主网上线，轻钱包上线，开启Staking，开放对外接口</p>
+            <h3>{{$t('home.home28')}}</h3>
+            <p>{{$t('home.home29')}}</p>
           </div>
         </div>
       </div>
@@ -127,15 +126,15 @@
         <div class="fl one">
           <img class="fl" src="./../assets/img/fine3.png">
           <div class="fl">
-            <h3>Nerve 主网上线</h3>
-            <p>Nerve主网上线，轻钱包上线，开启Staking，开放对外接口</p>
+            <h3>{{$t('home.home30')}}</h3>
+            <p>{{$t('home.home31')}}</p>
           </div>
         </div>
         <div class="fl two">
           <img class="fl" src="./../assets/img/fine4.png">
           <div class="fl">
-            <h3>Nerve 主网上线</h3>
-            <p>Nerve主网上线，轻钱包上线，开启Staking，开放对外接口</p>
+            <h3>{{$t('home.home32')}}</h3>
+            <p>{{$t('home.home33')}}</p>
           </div>
         </div>
       </div>
@@ -143,7 +142,7 @@
 
     <div class="partner">
       <div class="w1200">
-        <h2 class="title tc">合作伙伴</h2>
+        <h2 class="title tc">{{$t('home.home34')}}</h2>
         <ul>
           <li class="fl">
             <img src="./../assets/img/partner1.png">
@@ -307,7 +306,7 @@
           h3 {
             font-size: 20px;
             color: #17202e;
-            margin: 15px 0 0 10px;
+            margin: 10px 0 0 10px;
           }
           p {
             font-size: 14px;
@@ -316,7 +315,7 @@
           }
         }
         .one {
-          width: 50%;
+          width: 600px;
         }
         .two {
           margin: 0 0 0 20px;
@@ -351,7 +350,7 @@
           h3 {
             font-size: 20px;
             color: #17202e;
-            margin: 15px 0 0 10px;
+            margin: 10px 0 0 10px;
           }
           p {
             font-size: 14px;
@@ -360,12 +359,12 @@
           }
         }
         .one {
-          margin: 20px 0 0 400px;
+          margin: 40px 0 0 490px;
           z-index: 33;
         }
         .two {
-          width: 370px;
-          margin: 20px 0 0 270px;
+          width: 500px;
+          margin: 40px 0 0 250px;
           position: absolute;
           z-index: 33;
         }

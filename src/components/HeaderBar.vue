@@ -6,12 +6,12 @@
       </div>
       <div class="menu fl">
         <el-menu :default-active="activeIndex" mode="horizontal" active-text-color="#79a7e4" @select="handleSelect">
-          <el-menu-item index="scene">场景</el-menu-item>
-          <el-menu-item index="wiring">线路图</el-menu-item>
-          <el-menu-item index="library">文档库</el-menu-item>
-          <el-menu-item index="team">团队</el-menu-item>
-          <el-menu-item index="whiteBook">白皮书</el-menu-item>
-          <div class="language fr font14 click">语言</div>
+          <el-menu-item index="scene">{{$t('nav.scene')}}</el-menu-item>
+         <!-- <el-menu-item index="wiring">线路图</el-menu-item>-->
+          <el-menu-item index="library">{{$t('nav.library')}}</el-menu-item>
+          <el-menu-item index="team">{{$t('nav.team')}}</el-menu-item>
+          <el-menu-item index="whiteBook">{{$t('nav.whiteBook')}}</el-menu-item>
+          <div class="language fr font14 click" @click="selectLanguage">{{lang === 'en' ? '简体中文':'English' }}</div>
         </el-menu>
       </div>
     </div>
@@ -22,8 +22,22 @@
   export default {
     data() {
       return {
-        activeIndex: '1',
+        activeIndex: '1', //导航连接
+        lang: 'cn', //语言
       };
+    },
+    created() {
+      let lang = navigator.language || navigator.userLanguage;//常规浏览器语言和IE浏览器
+      if (sessionStorage.hasOwnProperty('lang')) {
+        this.lang = sessionStorage.getItem('lang')
+      } else {
+        if (lang.substr(0, 2) === 'zh') {
+          this.lang = 'cn'
+        } else {
+          this.lang = 'en'
+        }
+      }
+      this.$i18n.locale = this.lang;
     },
     methods: {
 
@@ -34,12 +48,25 @@
        * @author: Wave
        */
       handleSelect(key) {
-        console.log(key);
+        //console.log(key);
         if (key === 'scene') {
           this.toUrl(key)
         } else if (key === 'team') {
           this.toUrl(key)
         }
+      },
+
+      /**
+       * 语言切换
+       */
+      selectLanguage() {
+        if (this.lang === 'en') {
+          this.lang = 'cn'
+        } else {
+          this.lang = 'en'
+        }
+        sessionStorage.setItem('lang', this.lang);
+        this.$i18n.locale = this.lang;
       },
 
       /**

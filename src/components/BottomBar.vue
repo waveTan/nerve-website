@@ -7,12 +7,12 @@
       </div>
       <div class="bottom-right fr">
         <div class="menu fl">
-          <el-menu :default-active="activeIndex" mode="horizontal" @select="handleSelect">
-            <el-menu-item index="scene">场景</el-menu-item>
-            <el-menu-item index="wiring">线路图</el-menu-item>
-            <el-menu-item index="library">文档库</el-menu-item>
-            <el-menu-item index="team">团队</el-menu-item>
-            <el-menu-item index="whiteBook">白皮书</el-menu-item>
+          <el-menu :default-active="activeIndex" mode="horizontal" active-text-color="#79a7e4" @select="handleSelect">
+            <el-menu-item index="scene">{{$t('nav.scene')}}</el-menu-item>
+            <!-- <el-menu-item index="wiring">线路图</el-menu-item>-->
+            <el-menu-item index="library">{{$t('nav.library')}}</el-menu-item>
+            <el-menu-item index="team">{{$t('nav.team')}}</el-menu-item>
+            <el-menu-item index="whiteBook">{{$t('nav.whiteBook')}}</el-menu-item>
           </el-menu>
         </div>
         <div class="community fr ">
@@ -77,7 +77,53 @@
 
 <script>
   export default {
-    name: "bottom-bar"
+    name: "bottom-bar",
+    data() {
+      return {
+        activeIndex: '1', //导航连接
+      };
+    },
+    created() {
+      let lang = navigator.language || navigator.userLanguage;//常规浏览器语言和IE浏览器
+      if (sessionStorage.hasOwnProperty('lang')) {
+        this.lang = sessionStorage.getItem('lang')
+      } else {
+        if (lang.substr(0, 2) === 'zh') {
+          this.lang = 'cn'
+        } else {
+          this.lang = 'en'
+        }
+      }
+      this.$i18n.locale = this.lang;
+    },
+    methods: {
+
+      /**
+       * @disc:导航连接
+       * @params: key
+       * @date: 2019-11-07 14:16
+       * @author: Wave
+       */
+      handleSelect(key) {
+        //console.log(key);
+        if (key === 'scene') {
+          this.toUrl(key)
+        } else if (key === 'team') {
+          this.toUrl(key)
+        }
+      },
+
+      /**
+       * url 连接
+       * @param name
+       * @param type 0:路由跳转 1:连接跳转
+       */
+      toUrl(name, type = 0) {
+        this.$router.push({
+          name: name,
+        })
+      }
+    }
   }
 </script>
 
