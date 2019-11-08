@@ -69,7 +69,7 @@ const cn = {
 
   "team": {
     "team0": "发起人",
-    "team1": "NULS NTC",
+    "team1": "NTC 团队",
     "team2": "架构师",
     "team3": "中国",
     "team4": "全栈工程师",

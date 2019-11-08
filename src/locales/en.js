@@ -69,7 +69,7 @@ const en = {
 
   "team": {
     "team0": "Initiator",
-    "team1": "NULS NTC",
+    "team1": "NTC Team",
     "team2": "Architect",
     "team3": "China",
     "team4": "Full stack engineer",

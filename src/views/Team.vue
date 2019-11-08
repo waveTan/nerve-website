@@ -152,6 +152,9 @@
       ul {
         li {
           margin: 0 4rem 5rem 0;
+          @media screen and (max-width: 1520px) {
+            margin: 0 1rem 3rem 0;
+          }
           &:nth-child(4n) {
             margin-right: 0;
           }
@@ -164,6 +167,9 @@
               max-width: 20rem;
               border-radius: 1rem;
               box-shadow: 0.2rem 0.4rem 1.2rem 0.2rem;
+              @media screen and (max-width: 1520px) {
+                max-width: 17rem;
+              }
             }
           }
           h5 {
@@ -172,6 +178,7 @@
             font-weight: 700;
             line-height: 1.14286;
             text-align: center;
+
           }
           p {
             margin-left: auto;
@@ -182,6 +189,9 @@
             font-weight: 500;
             line-height: 1.33333;
             text-align: center;
+            @media screen and (max-width: 1520px) {
+              font-size: 1.2rem;
+            }
           }
         }
       }
