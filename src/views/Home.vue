@@ -132,7 +132,7 @@
         </div>
         <div class="fl two">
           <img class="fl" src="./../assets/img/fine4.png">
-          <div class="fl">
+          <div class="fl infos">
             <h3>{{$t('home.home32')}}</h3>
             <p>{{$t('home.home33')}}</p>
           </div>
@@ -200,6 +200,9 @@
     .trait {
       height: 800px;
       margin: 120px 0 0 0;
+      .title{
+        margin: 0 0 120px 0;
+      }
       ul {
         li {
           width: 300px;
@@ -232,7 +235,7 @@
       }
     }
     .what-Nerve {
-      height: 800px;
+      height: 630px;
       .info {
         margin: 50px 0 150px 0;
         line-height: 30px;
@@ -255,6 +258,7 @@
             font-size: 22px;
             font-weight: bold;
             margin: 30px 0;
+            height: 60px;
           }
           p {
             font-size: 18px;
@@ -322,6 +326,7 @@
         }
         .one {
           width: 600px;
+          margin-left: -40px;
         }
         .two {
           margin: 0 0 0 20px;
@@ -370,20 +375,34 @@
           }
         }
         .one {
-          margin: 40px 0 0 430px;
+          margin: 40px 0 0 370px;
           z-index: 33;
           @media screen and (min-width: 1520px) {
-            margin: 40px 0 0 570px;
+            margin: 40px 0 0 540px;
           }
         }
         .two {
-          width: 440px;
+          width: 400px;
           margin: 40px 0 0 50px;
           position: absolute;
           z-index: 33;
+          img{
+            width: 110px;
+            float: left;
+          }
+          .infos{
+            width: 290px;
+          }
           @media screen and (min-width: 1520px) {
             width: 560px;
             margin: 40px 0 0 200px;
+            img{
+              width: 110px;
+              float: left;
+            }
+            .infos{
+              width: 450px;
+            }
           }
         }
       }

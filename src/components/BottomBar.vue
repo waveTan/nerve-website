@@ -2,8 +2,9 @@
   <div class="bottom cb">
     <div class="w1200">
       <div class="bottom-logo fl">
-        <img src="./../assets/img/bottem-logo.png">
-        <p class="font14">Nerve Foundation Singapore</p>
+        <img @click="toUrl('home')" src="./../assets/logo-w.svg">
+        <p class="font14">Nerve Foundation</p>
+        <p>Singapore</p>
       </div>
       <div class="bottom-right fr">
         <div class="menu fl">

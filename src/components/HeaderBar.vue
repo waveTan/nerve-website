@@ -2,7 +2,7 @@
   <div class="header">
     <div class="w1200">
       <div class="logo fl">
-        <img class="click" @click="toUrl('home')" src="./../assets/logo.svg">
+        <div class="click img" @click="toUrl('home')"></div>
       </div>
       <div class="menu fl">
         <el-menu :default-active="activeIndex" mode="horizontal" active-text-color="#79a7e4" @select="handleSelect">
@@ -92,10 +92,14 @@
 
     .logo {
       width: 15%;
-      margin: 15px 0 0 0;
-      img {
+      margin: 20px 0 0 0;
+      .img {
         width: 200px;
         height: 73px;
+        background: url("./../assets/logo.svg") no-repeat;
+        @media screen and (max-width: 1520px) {
+          background: url("./../assets/logo-w.svg") no-repeat;
+        }
       }
     }
     .menu {

@@ -1,7 +1,7 @@
 <template>
   <div class="team">
     <div class="team-list w1200">
-      <h3 class="tc" style="color: #ffffff">{{$t('team.team0')}}</h3>
+      <h3 class="tc fast">{{$t('team.team0')}}</h3>
       <ul class="tc">
         <li style="margin: 0">
           <h6><img src="./../assets/team/Berzeck.png"></h6>
@@ -134,12 +134,20 @@
     height: 800px;
     .team-list {
       h3 {
-        width: 300px;
+        width: 22rem;
         margin: 50px auto 100px;
-        font-size: 4rem;
+        font-size: 48px;
         font-weight: 700;
         padding-bottom: 1.4rem;
         border-bottom: 0.4rem solid #1a56a4;
+      }
+      .fast {
+        color: #ffffff;
+        border-bottom: 0;
+        @media screen and (max-width: 1520px) {
+          color: #608FFF;
+          border-bottom: 0.4rem solid #1a56a4;
+        }
       }
       ul {
         li {
