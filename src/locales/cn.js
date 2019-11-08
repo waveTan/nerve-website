@@ -14,7 +14,7 @@ const cn = {
     "home1": "去中心化的数字资产服务网络",
     "home2": "特点",
     "home3": "快速",
-    "home4": "跨链闪电网络上千TPS,一秒确认",
+    "home4": "闪电网络数千TPS，秒级确认",
     "home5": "便捷",
     "home6": "多种主流资产对接一链，多链互通",
     "home7": "稳定",
@@ -36,25 +36,25 @@ const cn = {
     "home23": "喂价机制",
     "home24": "保障每个共识节点提供准确的多个交易所、预言机或报价机构的均价。及时更新，写入区块。",
 
-    "home25": "线路图",
+    "home25": "路线图",
     "home26": "Nerve 主网上线",
     "home27": "Nerve主网上线，轻钱包上线，开启Staking，开放对外接口",
     "home28": "打通BCH等主流资产",
     "home29": "实现BCH等不带智能合约功能的主流数字资产的跨链交互。NDEX为更多的主流数字资产提供自由的流通和交易。",
-    "home30": "打通BTC ETH，上线NDEX",
-    "home31": "实现BTC ETH ERC20的跨链交互，推出链上应用NDEX，支持NRC20资产、Nerve和NULS的跨链资产之间的交易。",
+    "home30": "打通BTC ETH，上线NerveDEX",
+    "home31": "实现BTC ETH ERC20的跨链交互，推出链上应用NerveDEX，支持NRC20资产、Nerve和NULS的跨链资产之间的交易。",
     "home32": "打通更多稳定资产，开通OTC功能",
-    "home33": "实现市值10的数字资产品种。接入OTC功能和更多的稳定资产PAX、DAI等",
+    "home33": "实现市值前10的数字资产品种。接入OTC功能和更多的稳定资产PAX、DAI等",
     "home34": "合作伙伴",
     "home": "",
   },
 
   "scene": {
-    "scene0": "Nerve 连接区块链孤岛的桥",
+    "scene0": "Nerve 去中心化的数字资产服务网络",
     "scene1": "Nerve提供了一套去中心化的数字资产服务网络。旨在打破区块链价值孤岛，建立跨链互通的资产交互网络，为Defi应用生态提供一切需要的底层支持。让数字资产持有者享受真正安全、自由、透明的Defi应用服务。",
     "scene2": "应用场景",
-    "scene3": "Nerve专为满足您的跨链需求而量身定制，为Defi应用生态提供一切需要的底层支持。",
-    "scene4": "交易所",
+    "scene3": "Nerve专为满足您的跨链需求而量身定制，为Defi应用生态提供底层支持。",
+    "scene4": "去中心化交易所&钱包",
     "scene5": "为交易所提供底层技术支持，打通主流链，实现异构链跨链转账，秒级确认",
     "scene6": "快速支付",
     "scene7": "跨链闪电网络技术，可支持不同币种的跨链交易，数千高TPS和低廉手续费可支持并发高频小额支付。",
@@ -69,7 +69,7 @@ const cn = {
 
   "team": {
     "team0": "发起人",
-    "team1": "NTC 团队",
+    "team1": "团队",
     "team2": "架构师",
     "team3": "中国",
     "team4": "全栈工程师",
@@ -90,7 +90,7 @@ const cn = {
 
   "bottom": {
     "foundation": "基金会",
-    "beLocated": "250 W.Tasman Dr.,Suite 180,San Jose,CA 95134",
+    "beLocated": "Singapore",
   },
   ...zhLocale
 };

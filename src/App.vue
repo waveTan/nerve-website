@@ -61,16 +61,24 @@
   .app {
     min-width: 1520px;
     background-size: 100% 100%;
+    @media screen and (min-width: 1024px) {
+      min-width: 1024px;
+    }
+    @media screen and (min-width: 1360px) {
+      min-width: 1200px;
+    }
+    @media screen and (min-width: 1600px) {
+      min-width: 1520px;
+    }
   }
 
   .home-bg {
-    min-height: 6200px;
+    min-height: 5500px;
     background: #ffffff url("./assets/img/home-bg.png") repeat-y;
-
   }
 
   .bg {
-    min-height: 4260px;
+    height: 4260px;
     background: #ffffff url("./assets/img/scene-bg.png") repeat-y;
   }
 

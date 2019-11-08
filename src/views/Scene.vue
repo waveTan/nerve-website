@@ -72,7 +72,6 @@
       <h2 class="title">{{$t('scene.scene12')}}</h2>
       <p class="info">{{$t('scene.scene13')}}</p>
     </div>
-
   </div>
 </template>
 
@@ -84,8 +83,8 @@
 <style lang="less">
   .scene {
     .nerve {
-      height: 650px;
-      padding-top: 200px;
+      height: 850px;
+      padding-top: 300px;
       .fl {
         width: 600px;
       }
@@ -94,6 +93,7 @@
         text-align: right;
         img {
           width: 582px;
+          margin-top: -100px;
         }
       }
 

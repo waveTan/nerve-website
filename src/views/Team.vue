@@ -3,9 +3,9 @@
     <div class="team-list w1200">
       <h3 class="tc" style="color: #ffffff">{{$t('team.team0')}}</h3>
       <ul class="tc">
-        <li>
+        <li style="margin: 0">
           <h6><img src="./../assets/team/Berzeck.png"></h6>
-          <h5>Mario Blacutt Bolivia</h5>
+          <h5>Berzeck</h5>
           <p>{{$t('team.team0')}}</p>
         </li>
       </ul>

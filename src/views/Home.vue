@@ -116,10 +116,10 @@
       </div>
       <div class="line-middle cb">
         <ul class="w1200">
-          <li class="fl"><font></font><span>2020年Q1</span></li>
-          <li class="fl"><font></font><span>2020年Q1</span></li>
-          <li class="fl"><font></font><span>2020年Q1</span></li>
-          <li class="fl"><font></font><span>2020年Q1</span></li>
+          <li class="fl"><font></font><span>2020-Q1</span></li>
+          <li class="fl"><font></font><span>2020-Q1</span></li>
+          <li class="fl"><font></font><span>2020-Q1</span></li>
+          <li class="fl"><font></font><span>2020-Q1</span></li>
         </ul>
       </div>
       <div class="line-bottom w1200">
@@ -140,7 +140,7 @@
       </div>
     </div>
 
-    <div class="partner">
+    <div class="partner" v-show="false">
       <div class="w1200">
         <h2 class="title tc">{{$t('home.home34')}}</h2>
         <ul>
@@ -216,6 +216,9 @@
           &:last-child {
             margin-right: 0;
           }
+          @media screen and (min-width: 1520px) {
+            margin: 20px 150px 0;
+          }
           img {
             margin: 50px 80px;
             width: 155px;
@@ -244,6 +247,9 @@
           }
           &:last-child {
             margin-right: 0;
+          }
+          @media screen and (min-width: 1520px) {
+            margin: 20px 70px 0;
           }
           h3 {
             font-size: 22px;
@@ -310,7 +316,7 @@
           }
           p {
             font-size: 14px;
-            width: 250px;
+            width: 450px;
             margin: 0 0 0 10px;
           }
         }
@@ -319,6 +325,9 @@
         }
         .two {
           margin: 0 0 0 20px;
+          @media screen and (min-width: 1520px) {
+            margin: 0 0 0 170px;
+          }
         }
       }
       .line-middle {
@@ -328,6 +337,9 @@
         ul {
           li {
             width: 300px;
+            @media screen and (min-width: 1520px) {
+              width: 380px;
+            }
             font {
               width: 20px;
               height: 20px;
@@ -336,7 +348,6 @@
               border-radius: 10px;
               margin: -10px 0 0 0;
             }
-
           }
         }
       }
@@ -354,19 +365,26 @@
           }
           p {
             font-size: 14px;
-            width: 250px;
+            width: 450px;
             margin: 0 0 0 10px;
           }
         }
         .one {
-          margin: 40px 0 0 490px;
+          margin: 40px 0 0 430px;
           z-index: 33;
+          @media screen and (min-width: 1520px) {
+            margin: 40px 0 0 570px;
+          }
         }
         .two {
-          width: 500px;
-          margin: 40px 0 0 250px;
+          width: 440px;
+          margin: 40px 0 0 50px;
           position: absolute;
           z-index: 33;
+          @media screen and (min-width: 1520px) {
+            width: 560px;
+            margin: 40px 0 0 200px;
+          }
         }
       }
     }
@@ -376,7 +394,7 @@
         li {
           width: 25%;
           text-align: center;
-          margin: 20px 0 0 0;
+          margin: 20px 0 20px 0;
           img {
             width: 160px;
             height: 70px;

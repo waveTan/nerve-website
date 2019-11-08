@@ -7,8 +7,8 @@
       <div class="menu fl">
         <el-menu :default-active="activeIndex" mode="horizontal" active-text-color="#79a7e4" @select="handleSelect">
           <el-menu-item index="scene">{{$t('nav.scene')}}</el-menu-item>
-         <!-- <el-menu-item index="wiring">线路图</el-menu-item>-->
-          <el-menu-item index="library">{{$t('nav.library')}}</el-menu-item>
+          <!-- <el-menu-item index="wiring">线路图</el-menu-item>-->
+          <el-menu-item index="library" disabled>{{$t('nav.library')}}</el-menu-item>
           <el-menu-item index="team">{{$t('nav.team')}}</el-menu-item>
           <el-menu-item index="whiteBook">{{$t('nav.whiteBook')}}</el-menu-item>
           <div class="language fr font14 click" @click="selectLanguage">{{lang === 'en' ? '简体中文':'English' }}</div>
@@ -86,17 +86,21 @@
 <style lang="less">
   .header {
     height: 100px;
+    @media screen and (max-width: 1520px) {
+      background-color: #1a56a4;
+    }
+
     .logo {
-      width: 201px;
+      width: 15%;
       margin: 15px 0 0 0;
       img {
-        width: 100%;
+        width: 200px;
         height: 73px;
       }
     }
     .menu {
-      width: 799px;
-      margin-left: 520px;
+      width: 65%;
+      margin-left: 20%;
       .el-menu {
         background-color: transparent;
         margin: 40px 0 0 0;

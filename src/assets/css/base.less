@@ -108,8 +108,11 @@ u {
 .w1200 {
   width: 1520px;
   margin: 0 auto;
-  @media screen and (max-width: 1000px) {
-    width: 100%;
+  @media screen and (max-width: 1500px) {
+    width: 1200px;
+  }
+  @media screen and (min-width: 1520px) {
+    width: 1520px;
   }
 
 }
@@ -129,7 +132,7 @@ u {
   line-height: 12px;
   @media screen and (max-width: 1000px) {
     font-size: 0.6rem;
-    line-height:1rem;
+    line-height: 1rem;
   }
 }
 
@@ -138,7 +141,7 @@ u {
   line-height: 14px;
   @media screen and (max-width: 1000px) {
     font-size: 0.7rem;
-    line-height:1.2rem;
+    line-height: 1.2rem;
   }
 }
 
@@ -147,7 +150,7 @@ u {
   line-height: 16px;
   @media screen and (max-width: 1000px) {
     font-size: 1rem;
-    line-height:1.6rem;
+    line-height: 1.6rem;
   }
 }
 
@@ -280,12 +283,13 @@ u {
   border: @BD1;
 }
 
-.title{
+.title {
   font-size: 48px;
   font-weight: bold;
   color: #4b5057;
 }
-.info{
+
+.info {
   font-size: 20px;
   margin: 20px 0 0 0;
   color: #888b8f;
