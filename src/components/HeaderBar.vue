@@ -86,7 +86,7 @@
 <style lang="less">
   .header {
     height: 100px;
-    @media screen and (max-width: 1520px) {
+    @media screen and (max-width: 1750px) {
       background-color: #1a56a4;
     }
 

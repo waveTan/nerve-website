@@ -69,7 +69,7 @@ const cn = {
 
   "team": {
     "team0": "发起人",
-    "team1": "NTC 团队",
+    "team1": "核心团队",
     "team2": "架构师",
     "team3": "中国",
     "team4": "全栈工程师",
@@ -85,6 +85,7 @@ const cn = {
     "team15": "美国",
     "team16": "前端工程师",
     "team17": "测试工程师",
+    "team18": "NTC（NULS Technical Community）是NULS核心技术社区。 NTC成员对NULS架构和产品有着深入的了解。 NTC的成员享有自治和社区全力支持所带来的灵活性和创造性。Nerve项目由NULS核心技术社区成员发起，并获得了社区全力支持。Nerve项目由NTC参与开发，NULS核心团队提供孵化支持，为NULS和Nerve生态构建多链互通的区块链网络。",
     "team": "",
   },
 

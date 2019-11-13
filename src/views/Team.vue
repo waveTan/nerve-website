@@ -6,119 +6,119 @@
         <li style="margin: 0">
           <h6><img src="./../assets/team/Berzeck.png"></h6>
           <h5>Berzeck</h5>
-          <p>{{$t('team.team0')}}</p>
         </li>
       </ul>
     </div>
     <div class="cb"></div>
     <div class="team-list w1200">
       <h3 class="tc">{{$t('team.team1')}}</h3>
-      <ul>
-        <li class="fl">
-          <h6><img src="./../assets/team/LIN-2.jpg"></h6>
-          <h5>Lin Yang</h5>
-          <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
-        </li>
-        <li class="fl">
+      <p class="info">{{$t('team.team18')}}</p>
+      <ul class="tc">
+        <li>
           <h6><img src="./../assets/team/Niels.png"></h6>
           <h5>Niels Wang</h5>
           <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
         </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/Moshe.png"></h6>
-          <h5>Moshe</h5>
-          <p>{{$t('team.team4')}}-{{$t('team.team5')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/Angel.png"></h6>
-          <h5>Angel</h5>
-          <p>{{$t('team.team4')}}-{{$t('team.team6')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/Claudio.png"></h6>
-          <h5>Claudio</h5>
-          <p>{{$t('team.team7')}}-{{$t('team.team8')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/Naveen.png"></h6>
-          <h5>Naveen</h5>
-          <p>{{$t('team.team9')}}-{{$t('team.team10')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/Edward.png"></h6>
-          <h5>Edward</h5>
-          <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/nalex.jpeg"></h6>
-          <h5>Nalex</h5>
-          <p>{{$t('team.team11')}} - {{$t('team.team12')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/Pen-Luo.jpg"></h6>
-          <h5>Pen</h5>
-          <p>{{$t('team.team13')}}-{{$t('team.team3')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/long-1.jpeg"></h6>
-          <h5>Long</h5>
-          <p>{{$t('team.team9')}}-{{$t('team.team3')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/peak.jpeg"></h6>
-          <h5>Peak</h5>
-          <p>{{$t('team.team9')}}-{{$t('team.team3')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/Tudor.jpeg"></h6>
-          <h5>Tudor</h5>
-          <p>{{$t('team.team4')}}-{{$t('team.team12')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/kathy.jpeg"></h6>
-          <h5>Kathy</h5>
-          <p>{{$t('team.team2')}}-{{$t('team.team15')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/Cody-Lan.jpg"></h6>
-          <h5>Cody Lan</h5>
-          <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/Wave-Tan.jpg"></h6>
-          <h5>Wave Tan</h5>
-          <p>{{$t('team.team16')}}-{{$t('team.team3')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/WechatIMG212.jpeg"></h6>
-          <h5>Lijun Zhou</h5>
-          <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/Charlie-Li.jpg"></h6>
-          <h5>Charlie Li</h5>
-          <p>{{$t('team.team9')}}-{{$t('team.team3')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/Pierre-Luo.jpg"></h6>
-          <h5>Pierre Luo</h5>
-          <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/ViVi-zhou.jpg"></h6>
-          <h5>ViVi Zhou</h5>
-          <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/Albert-Yi.jpg"></h6>
-          <h5>Albert Yi</h5>
-          <p>{{$t('team.team17')}}-{{$t('team.team3')}}</p>
-        </li>
-        <li class="fl">
-          <h6><img src="./../assets/team/Angang-Tang.jpg"></h6>
-          <h5>Angang Tang</h5>
-          <p>{{$t('team.team9')}}-{{$t('team.team3')}}</p>
-        </li>
+        <!-- <li class="fl">
+           <h6><img src="./../assets/team/LIN-2.jpg"></h6>
+           <h5>Lin Yang</h5>
+           <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/Moshe.png"></h6>
+           <h5>Moshe</h5>
+           <p>{{$t('team.team4')}}-{{$t('team.team5')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/Angel.png"></h6>
+           <h5>Angel</h5>
+           <p>{{$t('team.team4')}}-{{$t('team.team6')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/Claudio.png"></h6>
+           <h5>Claudio</h5>
+           <p>{{$t('team.team7')}}-{{$t('team.team8')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/Naveen.png"></h6>
+           <h5>Naveen</h5>
+           <p>{{$t('team.team9')}}-{{$t('team.team10')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/Edward.png"></h6>
+           <h5>Edward</h5>
+           <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/nalex.jpeg"></h6>
+           <h5>Nalex</h5>
+           <p>{{$t('team.team11')}} - {{$t('team.team12')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/Pen-Luo.jpg"></h6>
+           <h5>Pen</h5>
+           <p>{{$t('team.team13')}}-{{$t('team.team3')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/long-1.jpeg"></h6>
+           <h5>Long</h5>
+           <p>{{$t('team.team9')}}-{{$t('team.team3')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/peak.jpeg"></h6>
+           <h5>Peak</h5>
+           <p>{{$t('team.team9')}}-{{$t('team.team3')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/Tudor.jpeg"></h6>
+           <h5>Tudor</h5>
+           <p>{{$t('team.team4')}}-{{$t('team.team12')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/kathy.jpeg"></h6>
+           <h5>Kathy</h5>
+           <p>{{$t('team.team2')}}-{{$t('team.team15')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/Cody-Lan.jpg"></h6>
+           <h5>Cody Lan</h5>
+           <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/Wave-Tan.jpg"></h6>
+           <h5>Wave Tan</h5>
+           <p>{{$t('team.team16')}}-{{$t('team.team3')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/WechatIMG212.jpeg"></h6>
+           <h5>Lijun Zhou</h5>
+           <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/Charlie-Li.jpg"></h6>
+           <h5>Charlie Li</h5>
+           <p>{{$t('team.team9')}}-{{$t('team.team3')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/Pierre-Luo.jpg"></h6>
+           <h5>Pierre Luo</h5>
+           <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/ViVi-zhou.jpg"></h6>
+           <h5>ViVi Zhou</h5>
+           <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/Albert-Yi.jpg"></h6>
+           <h5>Albert Yi</h5>
+           <p>{{$t('team.team17')}}-{{$t('team.team3')}}</p>
+         </li>
+         <li class="fl">
+           <h6><img src="./../assets/team/Angang-Tang.jpg"></h6>
+           <h5>Angang Tang</h5>
+           <p>{{$t('team.team9')}}-{{$t('team.team3')}}</p>
+         </li>-->
       </ul>
     </div>
   </div>
@@ -131,7 +131,7 @@
 </script>
 <style lang="less">
   .team {
-    height: 800px;
+    height: 1500px;
     .team-list {
       h3 {
         width: 22rem;
@@ -148,6 +148,9 @@
           color: #608FFF;
           border-bottom: 0.4rem solid #1a56a4;
         }
+      }
+      .info{
+        margin:0 0 100px 0;
       }
       ul {
         li {

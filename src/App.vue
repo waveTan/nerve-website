@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="app" :class="bgChoice ? 'home-bg': 'bg'">
+  <div id="app" class="app" :class="bgChoice">
     <HeaderBar>
     </HeaderBar>
     <router-view>
@@ -15,7 +15,7 @@
   export default {
     data() {
       return {
-        bgChoice: true,
+        bgChoice: 'home-bg',
       };
     },
     components: {
@@ -24,10 +24,12 @@
     },
     watch: {
       $route(to) {
-        if (to.path === '/home' || to.path === '/') {
-          this.bgChoice = true
+        if (to.path === '/home' || this.$route.path === '/') {
+          this.bgChoice = 'home-bg'
+        } else if (to.path === '/team') {
+          this.bgChoice = 'team-bg'
         } else {
-          this.bgChoice = false
+          this.bgChoice = 'bg'
         }
       }
     },
@@ -44,10 +46,12 @@
        * @author: Wave
        */
       getPath() {
-        if (this.$route.path === '/home' || to.path === '/') {
-          this.bgChoice = true
+        if (this.$route.path === '/home' || this.$route.path === '/') {
+          this.bgChoice = 'home-bg'
+        } else if (this.$route.path === '/team') {
+          this.bgChoice = 'team-bg'
         } else {
-          this.bgChoice = false
+          this.bgChoice = 'bg'
         }
       }
 
@@ -75,6 +79,11 @@
   .home-bg {
     min-height: 5500px;
     background: #ffffff url("./assets/img/home-bg.png") repeat-y;
+  }
+
+  .team-bg {
+    min-height: 1752px;
+    background: #ffffff url("./assets/img/team-bg.png") repeat-y;
   }
 
   .bg {
