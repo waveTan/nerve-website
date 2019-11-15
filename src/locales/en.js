@@ -4,7 +4,7 @@ const en = {
 
   "nav": {
     "scene": "Scene",
-    "library": "Library",
+    "library": "Documentation",
     "team": "Team",
     "whiteBook": "White Paper",
   },

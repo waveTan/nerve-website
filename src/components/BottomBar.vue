@@ -4,7 +4,7 @@
       <div class="bottom-logo fl">
         <img @click="toUrl('home')" src="./../assets/logo-w.svg">
         <p class="font14">Nerve Foundation</p>
-        <p>Singapore</p>
+        <p class="font14">Singapore</p>
       </div>
       <div class="bottom-right fr">
         <div class="menu fl">
