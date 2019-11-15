@@ -97,7 +97,7 @@
         width: 200px;
         height: 73px;
         background: url("./../assets/logo.svg") no-repeat;
-        @media screen and (max-width: 1520px) {
+        @media screen and (max-width: 1770px) {
           background: url("./../assets/logo-w.svg") no-repeat;
         }
       }

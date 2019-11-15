@@ -82,7 +82,7 @@
   }
 
   .team-bg {
-    min-height: 1752px;
+    height: 2800px;
     background: #ffffff url("./assets/img/team-bg.png") repeat-y;
   }
 

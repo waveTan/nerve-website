@@ -68,7 +68,7 @@ const en = {
   },
 
   "team": {
-    "team0": "Initiator",
+    "team0": "Founder",
     "team1": "Core Team",
     "team2": "Architect",
     "team3": "China",
@@ -85,7 +85,7 @@ const en = {
     "team15": "America",
     "team16": "WEB Engineer",
     "team17": "Test engineer",
-    "team18": "NTC (NULS Technical Community) is the NULS core technology Community.NTC members have an in-depth understanding of NULS architecture and products.NTC members enjoy the flexibility and creativity that comes with autonomy and the full support of the community.The Nerve project was initiated by members of the NULS core technology community and received full support from the community.The Nerve project was developed by NTC with incubation support from the NULS core team to build a multi-chain interworking blockchain network for the NULS and Nerve ecologies.",
+    "team18": "NTC（NULS Technical Community) is the core technical community. NTC members have an in-depth understanding of the NULS architecture and products, and they enjoy the flexibility and creativity of self-government and community support. The Nerve project was founded by the member of the NTC and received full support from the community. Nerve was developed and provided incubation support by NTC. It would build a multi-chain interworking blockchain network for the NULS and Nerve ecosystems.",
     "team": "",
   },
 

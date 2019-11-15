@@ -11,9 +11,8 @@
     </div>
     <div class="cb"></div>
     <div class="team-list w1200">
-      <h3 class="tc">{{$t('team.team1')}}</h3>
+      <h3 class="tc" style="margin-top: 120px">{{$t('team.team1')}}</h3>
       <p class="info">{{$t('team.team18')}}</p>
-
       <el-row :gutter="20" class="teams">
         <el-col :span="6">
           <h6><img src="./../assets/team/Niels.png"></h6>
@@ -74,8 +73,8 @@
           <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
         </el-col>
       </el-row>
-
     </div>
+    <div class="cb"></div>
   </div>
 </template>
 
@@ -86,11 +85,11 @@
 </script>
 <style lang="less">
   .team {
-    height: 1500px;
+    height: 2600px;
     .team-list {
       h3 {
         width: 22rem;
-        margin: 50px auto 100px;
+        margin: 50px auto 50px;
         font-size: 48px;
         font-weight: 700;
         padding-bottom: 1.4rem;
