@@ -14,11 +14,6 @@
       <h3 class="tc" style="margin-top: 120px">{{$t('team.team1')}}</h3>
       <p class="info">{{$t('team.team18')}}</p>
       <el-row :gutter="20" class="teams">
-        <el-col :span="6">
-          <h6><img src="./../assets/team/Niels.png"></h6>
-          <h5>Niels Wang</h5>
-          <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
-        </el-col>
         <el-col :span="6"><h6><img src="./../assets/team/Moshe.png"></h6>
           <h5>Moshe</h5>
           <p>{{$t('team.team4')}}-{{$t('team.team5')}}</p></el-col>
@@ -38,24 +33,9 @@
           <p>{{$t('team.team9')}}-{{$t('team.team10')}}</p>
         </el-col>
         <el-col :span="6">
-          <h6><img src="./../assets/team/Edward.png"></h6>
-          <h5>Edward</h5>
-          <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
-        </el-col>
-        <el-col :span="6">
           <h6><img src="./../assets/team/nalex.jpeg"></h6>
           <h5>Nalex</h5>
           <p>{{$t('team.team11')}} - {{$t('team.team12')}}</p>
-        </el-col>
-        <el-col :span="6">
-          <h6><img src="./../assets/team/long-1.jpeg"></h6>
-          <h5>Long</h5>
-          <p>{{$t('team.team9')}}-{{$t('team.team3')}}</p>
-        </el-col>
-        <el-col :span="6">
-          <h6><img src="./../assets/team/peak.jpeg"></h6>
-          <h5>Peak</h5>
-          <p>{{$t('team.team9')}}-{{$t('team.team3')}}</p>
         </el-col>
         <el-col :span="6">
           <h6><img src="./../assets/team/Tudor.jpeg"></h6>
@@ -66,11 +46,6 @@
           <h6><img src="./../assets/team/kathy.jpeg"></h6>
           <h5>Kathy</h5>
           <p>{{$t('team.team2')}}-{{$t('team.team15')}}</p>
-        </el-col>
-        <el-col :span="6">
-          <h6><img src="./../assets/team/Cody-Lan.jpg"></h6>
-          <h5>Cody Lan</h5>
-          <p>{{$t('team.team2')}}-{{$t('team.team3')}}</p>
         </el-col>
       </el-row>
     </div>
@@ -85,7 +60,7 @@
 </script>
 <style lang="less">
   .team {
-    height: 2600px;
+    height: 2400px;
     .team-list {
       h3 {
         width: 22rem;
