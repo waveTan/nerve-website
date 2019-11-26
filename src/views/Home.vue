@@ -235,7 +235,7 @@
       }
     }
     .what-Nerve {
-      height: 630px;
+      height: 680px;
       .info {
         margin: 50px 0 150px 0;
         line-height: 30px;
@@ -269,7 +269,7 @@
       }
     }
     .cross-link {
-      height: 600px;
+      height: 650px;
       padding-top: 300px;
       .fl {
         width: 50%;
@@ -280,7 +280,7 @@
       }
     }
     .consensus {
-      height: 700px;
+      height: 600px;
       padding-top: 200px;
       .fl {
         width: 50%;
@@ -391,7 +391,10 @@
             float: left;
           }
           .infos{
-            width: 290px;
+            width: 250px;
+            h3,p{
+              width: 230px;
+            }
           }
           @media screen and (min-width: 1520px) {
             width: 560px;
