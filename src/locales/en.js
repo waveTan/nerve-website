@@ -3,6 +3,7 @@ import enLocale from 'element-ui/lib/locale/lang/en'
 const en = {
 
   "nav": {
+    "home": "Home",
     "scene": "Scene",
     "library": "Documentation",
     "team": "Team",

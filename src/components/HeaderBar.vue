@@ -6,10 +6,11 @@
       </div>
       <div class="menu fl">
         <el-menu :default-active="activeIndex" mode="horizontal" active-text-color="#79a7e4" @select="handleSelect">
+          <el-menu-item index="home">{{$t('nav.home')}}</el-menu-item>
           <el-menu-item index="scene">{{$t('nav.scene')}}</el-menu-item>
           <!-- <el-menu-item index="wiring">线路图</el-menu-item>-->
-          <el-menu-item index="library" disabled>{{$t('nav.library')}}</el-menu-item>
-          <el-menu-item index="team">{{$t('nav.team')}}</el-menu-item>
+          <el-menu-item index="library">{{$t('nav.library')}}</el-menu-item>
+<!--          <el-menu-item index="team">{{$t('nav.team')}}</el-menu-item>-->
           <el-menu-item index="whiteBook">{{$t('nav.whiteBook')}}</el-menu-item>
           <div class="language fr font14 click" @click="selectLanguage">{{lang === 'en' ? '简体中文':'English' }}</div>
         </el-menu>
@@ -49,10 +50,15 @@
        */
       handleSelect(key) {
         //console.log(key);
-        if (key === 'scene') {
+        if (key === 'scene' || key === 'team' || key === 'home') {
           this.toUrl(key)
-        } else if (key === 'team') {
-          this.toUrl(key)
+        } else if (key === 'library') {
+          window.open('https://github.com/NerveNetwork/nerve-docs')
+        } else if (key === 'whiteBook') {
+          const url = this.$i18n.locale === 'en' ?
+            "http://nervefiles.oss-us-west-1.aliyuncs.com/wp/Nerve_WhitePaper_v1.00.pdf"
+            : "http://nerve-cn.oss-cn-hangzhou.aliyuncs.com/wp/Nerve_WhitePaper_v1.00_cn.pdf"
+          window.open(url)
         }
       },
 

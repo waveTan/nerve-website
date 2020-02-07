@@ -3,6 +3,7 @@ import zhLocale from 'element-ui/lib/locale/lang/zh-CN'
 const cn = {
 
   "nav": {
+    "home": "首页",
     "scene": "场景",
     "library": "文档库",
     "team": "团队",
