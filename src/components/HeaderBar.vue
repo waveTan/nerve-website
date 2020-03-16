@@ -12,7 +12,7 @@
           <el-menu-item index="library">{{$t('nav.library')}}</el-menu-item>
 <!--          <el-menu-item index="team">{{$t('nav.team')}}</el-menu-item>-->
           <el-menu-item index="whiteBook">{{$t('nav.whiteBook')}}</el-menu-item>
-          <div class="language fr font14 click" @click="selectLanguage">{{lang === 'en' ? '简体中文':'English' }}</div>
+          <div class="language fr font14 click" @click="selectLanguage" v-show="false">{{lang === 'en' ? '简体中文':'English' }}</div>
         </el-menu>
       </div>
     </div>
@@ -24,11 +24,11 @@
     data() {
       return {
         activeIndex: '1', //导航连接
-        lang: 'cn', //语言
+        lang: 'en', //语言
       };
     },
     created() {
-      let lang = navigator.language || navigator.userLanguage;//常规浏览器语言和IE浏览器
+      /*let lang = navigator.language || navigator.userLanguage;//常规浏览器语言和IE浏览器
       if (sessionStorage.hasOwnProperty('lang')) {
         this.lang = sessionStorage.getItem('lang')
       } else {
@@ -37,7 +37,7 @@
         } else {
           this.lang = 'en'
         }
-      }
+      }*/
       this.$i18n.locale = this.lang;
     },
     methods: {
