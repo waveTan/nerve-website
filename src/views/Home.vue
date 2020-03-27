@@ -117,9 +117,9 @@
       <div class="line-middle cb">
         <ul class="w1200">
           <li class="fl"><font></font><span>2020-Q1</span></li>
-          <li class="fl"><font></font><span>2020-Q1</span></li>
-          <li class="fl"><font></font><span>2020-Q1</span></li>
-          <li class="fl"><font></font><span>2020-Q1</span></li>
+          <li class="fl"><font></font><span>2020 Q2&Q3</span></li>
+          <li class="fl"><font></font><span>2020 Q4</span></li>
+          <li class="fl"><font></font><span>2021-2023</span></li>
         </ul>
       </div>
       <div class="line-bottom w1200">
@@ -200,7 +200,7 @@
     .trait {
       height: 800px;
       margin: 120px 0 0 0;
-      .title{
+      .title {
         margin: 0 0 120px 0;
       }
       ul {
@@ -375,10 +375,10 @@
           }
         }
         .one {
-          margin: 40px 0 0 370px;
+          margin: 40px 0 0 220px;
           z-index: 33;
           @media screen and (min-width: 1520px) {
-            margin: 40px 0 0 540px;
+            margin: 40px 0 0 460px;
           }
         }
         .two {
@@ -386,24 +386,28 @@
           margin: 40px 0 0 50px;
           position: absolute;
           z-index: 33;
-          img{
+          img {
             width: 110px;
             float: left;
           }
-          .infos{
+          .infos {
             width: 250px;
-            h3,p{
-              width: 230px;
+            h3, p {
+              width: 400px;
+              @media screen and (min-width: 1520px) {
+                width: 525px;
+              }
             }
           }
           @media screen and (min-width: 1520px) {
             width: 560px;
             margin: 40px 0 0 200px;
-            img{
+            img {
               width: 110px;
               float: left;
             }
-            .infos{
+
+            .infos {
               width: 450px;
             }
           }
