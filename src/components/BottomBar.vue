@@ -9,9 +9,9 @@
       <div class="bottom-right fr">
         <div class="menu fl">
           <el-menu :default-active="activeIndex" mode="horizontal" active-text-color="#79a7e4" @select="handleSelect">
-            <el-menu-item index="home">{{$t('nav.home')}}</el-menu-item>
+            <!--<el-menu-item index="home">{{$t('nav.home')}}</el-menu-item>-->
             <el-menu-item index="scene">{{$t('nav.scene')}}</el-menu-item>
-            <!-- <el-menu-item index="wiring">线路图</el-menu-item>-->
+             <el-menu-item index="partners">合作伙伴</el-menu-item>
             <el-menu-item index="library">{{$t('nav.library')}}</el-menu-item>
 <!--            <el-menu-item index="team">{{$t('nav.team')}}</el-menu-item>-->
             <el-menu-item index="whiteBook">{{$t('nav.whiteBook')}}</el-menu-item>
@@ -85,7 +85,7 @@
        */
       handleSelect(key) {
         //console.log(key);
-        if (key === 'scene' || key === 'team' || key === 'home') {
+        if (key === 'scene' || key === 'team' || key === 'home' || key==='partners') {
           this.toUrl(key)
         } else if (key === 'library') {
           window.open('https://github.com/NerveNetwork/nerve-docs')

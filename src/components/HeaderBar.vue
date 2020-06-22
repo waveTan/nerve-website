@@ -6,14 +6,14 @@
       </div>
       <div class="menu fl">
         <el-menu :default-active="activeIndex" mode="horizontal" active-text-color="#79a7e4" @select="handleSelect">
-          <el-menu-item index="home">{{$t('nav.home')}}</el-menu-item>
+
           <el-menu-item index="scene">{{$t('nav.scene')}}</el-menu-item>
+          <el-menu-item index="partners">合作伙伴</el-menu-item>
           <!-- <el-menu-item index="wiring">线路图</el-menu-item>-->
           <el-menu-item index="library">{{$t('nav.library')}}</el-menu-item>
-<!--          <el-menu-item index="team">{{$t('nav.team')}}</el-menu-item>-->
           <el-menu-item index="whiteBook">{{$t('nav.whiteBook')}}</el-menu-item>
-          <div class="language fr font14 click" @click="selectLanguage" v-show="false">{{lang === 'en' ? '简体中文':'English' }}</div>
         </el-menu>
+        <div class="language fr font14 click" @click="selectLanguage">{{lang === 'en' ? '简体中文':'English' }}</div>
       </div>
     </div>
   </div>
@@ -28,8 +28,8 @@
       };
     },
     created() {
-      sessionStorage.setItem('lang','en');
-      /*let lang = navigator.language || navigator.userLanguage;//常规浏览器语言和IE浏览器
+      sessionStorage.setItem('lang', 'en');
+      let lang = navigator.language || navigator.userLanguage;//常规浏览器语言和IE浏览器
       if (sessionStorage.hasOwnProperty('lang')) {
         this.lang = sessionStorage.getItem('lang')
       } else {
@@ -38,7 +38,7 @@
         } else {
           this.lang = 'en'
         }
-      }*/
+      }
       this.$i18n.locale = this.lang;
     },
     methods: {
@@ -51,14 +51,14 @@
        */
       handleSelect(key) {
         //console.log(key);
-        if (key === 'scene' || key === 'team' || key === 'home') {
+        if (key === 'scene' || key === 'team' || key === 'partners') {
           this.toUrl(key)
         } else if (key === 'library') {
           window.open('https://github.com/NerveNetwork/nerve-docs')
         } else if (key === 'whiteBook') {
           const url = this.$i18n.locale === 'en' ?
             "http://nervefiles.oss-us-west-1.aliyuncs.com/wp/Nerve_WhitePaper_v1.00.pdf"
-            : "http://nerve-cn.oss-cn-hangzhou.aliyuncs.com/wp/Nerve_WhitePaper_v1.00_cn.pdf"
+            : "http://nerve-cn.oss-cn-hangzhou.aliyuncs.com/wp/Nerve_WhitePaper_v1.00_cn.pdf";
           window.open(url)
         }
       },
@@ -116,6 +116,7 @@
         background-color: transparent;
         margin: 40px 0 0 0;
         height: 30px;
+        width: 80%;
         .el-menu-item {
           color: #ffffff;
           line-height: 20px;
@@ -130,11 +131,12 @@
           border-bottom: 0;
         }
       }
+      .language {
+        margin: -25px 0 0 0;
+        height: 20px;
+        color: #ffffff;
+      }
     }
-    .language {
-      margin: 5px 0 0 0;
-      height: 20px;
-      color: #ffffff;
-    }
+
   }
 </style>
