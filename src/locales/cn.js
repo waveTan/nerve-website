@@ -90,6 +90,14 @@ const cn = {
     "team": "",
   },
 
+  "partners":{
+    "partners0":"合作伙伴",
+    "partners1":"Nerve为众多合作伙伴提供了稳定高效的去中心化网络服务，同时各个合作伙伴也伴随着Nerve的成长",
+    "partners2":"战略合作",
+    "partners3":"战略投资",
+    "partners4":"partners",
+  },
+
   "bottom": {
     "foundation": "基金会",
     "beLocated": "Singapore",

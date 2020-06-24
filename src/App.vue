@@ -24,10 +24,13 @@
     },
     watch: {
       $route(to) {
+        console.log(to);
         if (to.path === '/home' || this.$route.path === '/') {
           this.bgChoice = 'home-bg'
         } else if (to.path === '/team') {
           this.bgChoice = 'team-bg'
+        } else if (to.path === '/partners') {
+          this.bgChoice = 'partners-bg'
         } else {
           this.bgChoice = 'bg'
         }
@@ -84,6 +87,11 @@
   .team-bg {
     height: 2800px;
     background: #ffffff url("./assets/img/team-bg.png") repeat-y;
+  }
+
+  .partners-bg {
+    height: 1400px;
+    background: #ffffff url("./assets/img/scene-bg.png") repeat-y;
   }
 
   .bg {

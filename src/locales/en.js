@@ -90,6 +90,14 @@ const en = {
     "team": "",
   },
 
+  "partners":{
+    "partners0":"Partners",
+    "partners1":"Nerve provides stable and efficient decentralized network services for many partners, and each partner also accompanies Nerve's growth",
+    "partners2":"Strategic Partners",
+    "partners3":"Strategic Investment",
+    "partners4":"partners",
+  },
+
   "bottom": {
     "foundation": "Foundation",
     "beLocated": "Singapore",

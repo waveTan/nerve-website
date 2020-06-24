@@ -8,7 +8,7 @@
         <el-menu :default-active="activeIndex" mode="horizontal" active-text-color="#79a7e4" @select="handleSelect">
 
           <el-menu-item index="scene">{{$t('nav.scene')}}</el-menu-item>
-          <el-menu-item index="partners">合作伙伴</el-menu-item>
+          <el-menu-item index="partners">{{$t('partners.partners0')}}</el-menu-item>
           <!-- <el-menu-item index="wiring">线路图</el-menu-item>-->
           <el-menu-item index="library">{{$t('nav.library')}}</el-menu-item>
           <el-menu-item index="whiteBook">{{$t('nav.whiteBook')}}</el-menu-item>

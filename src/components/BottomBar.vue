@@ -3,15 +3,15 @@
     <div class="w1200">
       <div class="bottom-logo fl">
         <img class="bottom-logo" @click="toUrl('home')" src="./../assets/logo-w.svg">
-        <p class="font14">Nerve Foundation</p>
-        <p class="font14">Singapore</p>
+        <!--<p class="font14">Nerve {{$t('bottom.foundation')}}</p>
+        <p class="font14">Singapore</p>-->
       </div>
       <div class="bottom-right fr">
         <div class="menu fl">
           <el-menu :default-active="activeIndex" mode="horizontal" active-text-color="#79a7e4" @select="handleSelect">
             <!--<el-menu-item index="home">{{$t('nav.home')}}</el-menu-item>-->
             <el-menu-item index="scene">{{$t('nav.scene')}}</el-menu-item>
-             <el-menu-item index="partners">合作伙伴</el-menu-item>
+             <el-menu-item index="partners">{{$t('partners.partners0')}}</el-menu-item>
             <el-menu-item index="library">{{$t('nav.library')}}</el-menu-item>
 <!--            <el-menu-item index="team">{{$t('nav.team')}}</el-menu-item>-->
             <el-menu-item index="whiteBook">{{$t('nav.whiteBook')}}</el-menu-item>
