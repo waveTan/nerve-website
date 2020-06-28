@@ -33,7 +33,7 @@
           <li class="fl click" @click="toUrl('https://www.bitz.cm/')"><img src="@/assets/img/Nerve_09.png"></li>
           <li class="fl click" @click="toUrl('https://www.tokenbetter.com/vc/')"><img src="@/assets/img/Nerve_10.png">
           </li>
-          <li class="fl click" @click="toUrl('https://www.xstarpool.com')"><img src="@/assets/img/Nerve_11.png"></li>
+          <li class="fl click" @click="toUrl('http://www.xstarpool.com/')"><img src="@/assets/img/Nerve_11.png"></li>
           <li class="fl click" @click="toUrl('http://www.imgfund.com/')"><img src="@/assets/img/Nerve_12.png"></li>
           <li class="fl click"><img src="@/assets/img/Nerve_13.png"></li>
           <!--<li class="fl click" v-for="item of mediaData" :key="item.key" @click="toUrl(item.url)">
