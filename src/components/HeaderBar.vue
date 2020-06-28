@@ -54,7 +54,8 @@
         if (key === 'scene' || key === 'team' || key === 'partners') {
           this.toUrl(key)
         } else if (key === 'library') {
-          window.open('https://github.com/NerveNetwork/nerve-docs')
+          const url = this.$i18n.locale === 'en' ? "http://docs.nerve.network/" : "http://docs.nerve.network/zh/";
+          window.open(url)
         } else if (key === 'whiteBook') {
           const url = this.$i18n.locale === 'en' ?
             "http://nervefiles.oss-us-west-1.aliyuncs.com/wp/Nerve_WhitePaper_v1.00.pdf"
