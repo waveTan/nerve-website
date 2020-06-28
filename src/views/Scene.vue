@@ -83,17 +83,17 @@
 <style lang="less">
   .scene {
     .nerve {
-      height: 850px;
-      padding-top: 300px;
+      height: 800px;
+      padding-top: 150px;
       .fl {
-        width: 600px;
+        width: 700px;
       }
       .fr {
-        width: 600px;
+        width: 500px;
         text-align: right;
         img {
-          width: 582px;
-          margin-top: -100px;
+          width: 500px;
+          margin-top:10px;
         }
       }
 

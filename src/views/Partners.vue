@@ -15,10 +15,10 @@
       <div class="w1200">
         <h2 class="title tc">{{$t('partners.partners2')}}</h2>
         <ul>
-          <li class="fl click" @click="toUrl('https://www.nuls.io/')"><img src="@/assets/img/NULS.jpg"></li>
-          <li class="fl click" @click="toUrl('https://usdi.co/')"><img src="@/assets/img/usdi.png"></li>
-          <li class="fl click" @click="toUrl('http://nabox.io/')"><img src="@/assets/img/nabox.png"></li>
-          <li class="fl click" @click="toUrl('https://okex.com/okchain')"><img src="@/assets/img/okchain.png"></li>
+          <li class="fl click" @click="toUrl('https://www.nuls.io/')"><img src="@/assets/img/Nerve_03.png"></li>
+          <li class="fl click" @click="toUrl('https://usdi.co/')"><img src="@/assets/img/Nerve_04.png"></li>
+          <li class="fl click" @click="toUrl('http://nabox.io/')"><img src="@/assets/img/Nerve_05.png"></li>
+          <li class="fl click" @click="toUrl('https://okex.com/okchain')"><img src="@/assets/img/Nerve_06.png"></li>
           <!--<li class="fl click" v-for="item of strategicData" :key="item.key" @click="toUrl(item.url)">
             <img :src="item.imgUrl">
           </li>-->
@@ -26,15 +26,16 @@
       </div>
     </div>
     <div class="cb"></div>
-    <div class="partner_list">
+    <div class="partner_list" style="min-height: 600px">
       <div class="w1200">
         <h2 class="title tc">{{$t('partners.partners3')}}</h2>
         <ul>
-          <li class="fl click" @click="toUrl('https://www.bitz.cm/')"><img src="@/assets/img/bitz.png"></li>
-          <li class="fl click" @click="toUrl('https://www.tokenbetter.com/vc/')"><img src="@/assets/img/TB.png"></li>
-          <li class="fl click" @click="toUrl('https://www.xstarpool.com')"><img src="@/assets/img/future.png"></li>
-          <li class="fl click" @click="toUrl('http://www.imgfund.com/')"><img src="@/assets/img/imagine.png"></li>
-          <li class="fl click"><img src="@/assets/img/index.png"></li>
+          <li class="fl click" @click="toUrl('https://www.bitz.cm/')"><img src="@/assets/img/Nerve_09.png"></li>
+          <li class="fl click" @click="toUrl('https://www.tokenbetter.com/vc/')"><img src="@/assets/img/Nerve_10.png">
+          </li>
+          <li class="fl click" @click="toUrl('https://www.xstarpool.com')"><img src="@/assets/img/Nerve_11.png"></li>
+          <li class="fl click" @click="toUrl('http://www.imgfund.com/')"><img src="@/assets/img/Nerve_12.png"></li>
+          <li class="fl click"><img src="@/assets/img/Nerve_13.png"></li>
           <!--<li class="fl click" v-for="item of mediaData" :key="item.key" @click="toUrl(item.url)">
             <img :src="item.imgUrl">
           </li>-->
@@ -83,8 +84,8 @@
 <style lang="less">
   .partner {
     .nerve {
-      height: 500px;
-      padding-top: 100px;
+      height: 720px;
+      padding-top: 150px;
       .fl {
         width: 600px;
       }
@@ -92,21 +93,21 @@
         width: 600px;
         text-align: right;
         img {
-          width: 500px;
-          margin: 10px 0 0 100px;
+          width: 450px;
+          margin: 0 0 0 100px;
         }
       }
 
     }
     .partner_list {
-      height: 400px;
+      min-height: 400px;
       ul {
-        margin: 10px 0 0 0;
+        margin: 20px 0 20px 0;
         li {
           width: 25%;
-          height: 40px;
+          height: 200px;
           text-align: center;
-          margin: 30px 0 0 0;
+          margin: 0;
           &:first-child {
             margin-left: 0;
           }
@@ -114,8 +115,8 @@
             margin-right: 0;
           }
           img {
-            width: auto;
-            height: 40px;
+            width: 380px;
+            height: 190px;
           }
         }
       }
