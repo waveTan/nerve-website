@@ -2,7 +2,8 @@
   <div class="home">
 
     <div class="nerve">
-      <div class="w1200">
+      <div class="nerve_bg"></div>
+      <div class="w1200 nerve_info">
         <h2 class="title">{{$t('home.home0')}}</h2>
         <p class="info">{{$t('home.home1')}}</p>
       </div>
@@ -195,7 +196,19 @@
   .home {
     .nerve {
       height: 750px;
-      padding-top: 300px;
+      .nerve_bg {
+        z-index: 99;
+        background: url("./../assets/img/home-bg0.png") no-repeat 100% 100%;
+        position: absolute;
+        right: 0;
+        width: 1060px;
+        height: 1088px;
+      }
+      .nerve_info {
+        z-index: 100;
+        padding-top: 300px;
+      }
+
     }
     .trait {
       height: 800px;
@@ -378,7 +391,7 @@
           margin: 40px 0 0 220px;
           z-index: 33;
           @media screen and (min-width: 1520px) {
-            margin: 40px 0 0 460px;
+            margin: 40px 0 0 350px;
           }
         }
         .two {
@@ -401,7 +414,7 @@
           }
           @media screen and (min-width: 1520px) {
             width: 560px;
-            margin: 40px 0 0 200px;
+            margin: 40px 0 0 170px;
             img {
               width: 110px;
               float: left;
