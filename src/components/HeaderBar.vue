@@ -58,8 +58,8 @@
           window.open(url)
         } else if (key === 'whiteBook') {
           const url = this.$i18n.locale === 'en' ?
-            "http://nervefiles.oss-us-west-1.aliyuncs.com/wp/Nerve_WhitePaper_v1.00.pdf"
-            : "http://nerve-cn.oss-cn-hangzhou.aliyuncs.com/wp/Nerve_WhitePaper_v1.00_cn.pdf";
+            "http://nervefiles.oss-us-west-1.aliyuncs.com/wp/Nerve_Whitepaper_EN.pdf"
+            : "http://nerve-cn.oss-cn-hangzhou.aliyuncs.com/wp/Nerve_Whitepaper_ZH.pdf";
           window.open(url)
         }
       },
