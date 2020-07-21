@@ -8,6 +8,8 @@ const cn = {
     "library": "文档库",
     "team": "团队",
     "whiteBook": "白皮书",
+    "wallet": "钱包",
+    "browser": "浏览器",
   },
 
   "home": {
