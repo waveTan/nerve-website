@@ -10,6 +10,7 @@ const en = {
     "whiteBook": "White Paper",
     "wallet": "Wallet",
     "browser": "Explorer",
+    "about": "About",
   },
 
   "home": {

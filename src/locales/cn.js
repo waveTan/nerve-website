@@ -10,6 +10,7 @@ const cn = {
     "whiteBook": "白皮书",
     "wallet": "钱包",
     "browser": "浏览器",
+    "about": "关于",
   },
 
   "home": {

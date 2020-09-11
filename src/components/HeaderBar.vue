@@ -8,11 +8,19 @@
         <el-menu :default-active="activeIndex" mode="horizontal" active-text-color="#79a7e4" @select="handleSelect">
           <el-menu-item index="scene">{{$t('nav.scene')}}</el-menu-item>
           <el-menu-item index="partners">{{$t('partners.partners0')}}</el-menu-item>
+          <el-menu-item index="NerveDex">NerveDex</el-menu-item>
           <!-- <el-menu-item index="wiring">线路图</el-menu-item>-->
-          <el-menu-item index="library">{{$t('nav.library')}}</el-menu-item>
-          <el-menu-item index="whiteBook">{{$t('nav.whiteBook')}}</el-menu-item>
           <el-menu-item index="wallet">{{$t('nav.wallet')}}</el-menu-item>
           <el-menu-item index="browser">{{$t('nav.browser')}}</el-menu-item>
+          <el-submenu index="2" :popper-append-to-body="false">
+            <template slot="title">{{$t('nav.about')}}</template>
+            <el-menu-item index="library">
+              <span @click="handleSelect('library')">{{$t('nav.library')}}</span>
+            </el-menu-item>
+            <el-menu-item index="whiteBook">
+              <span @click="handleSelect('whiteBook')">{{$t('nav.whiteBook')}}</span>
+            </el-menu-item>
+          </el-submenu>
         </el-menu>
         <div class="language fr font14 click" @click="selectLanguage">{{lang === 'en' ? '简体中文':'English' }}</div>
       </div>
@@ -54,6 +62,8 @@
         //console.log(key);
         if (key === 'scene' || key === 'team' || key === 'partners') {
           this.toUrl(key)
+        } else if (key === 'NerveDex') {
+          window.open('https://nervedex.com/')
         } else if (key === 'library') {
           const url = this.$i18n.locale === 'en' ? "http://docs.nerve.network/" : "http://docs.nerve.network/zh/";
           window.open(url)
@@ -123,7 +133,7 @@
         margin: 40px 0 0 0;
         height: 30px;
         width: 80%;
-        .el-menu-item {
+        .el-menu-item, .el-submenu__title {
           color: #ffffff;
           line-height: 20px;
           height: 20px;
@@ -135,6 +145,25 @@
         .is-active {
           background-color: #1a56a4 !important;
           border-bottom: 0;
+        }
+        .el-submenu {
+          .el-menu {
+            margin-top: 0;
+          }
+          .el-submenu__title {
+            color: #ffffee;
+            border-bottom: none !important;
+          }
+          .el-menu-item {
+            background-color: #1a56a4;
+            line-height: 36px;
+            height: 36px;
+            color: #ffffee;
+            min-width: 150px;
+            &:hover {
+              color: #79a7e4;
+            }
+          }
         }
       }
       .language {
