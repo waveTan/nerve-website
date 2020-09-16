@@ -11,6 +11,7 @@ const en = {
     "wallet": "Wallet",
     "browser": "Explorer",
     "about": "About",
+    "desktop": "Download Light Wallet",
   },
 
   "home": {

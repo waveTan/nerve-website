@@ -14,6 +14,9 @@
           <el-menu-item index="browser">{{$t('nav.browser')}}</el-menu-item>
           <el-submenu index="2" :popper-append-to-body="false">
             <template slot="title">{{$t('nav.about')}}</template>
+            <el-menu-item index="desktop">
+              <span @click="handleSelect('desktop')">{{$t('nav.desktop')}}</span>
+            </el-menu-item>
             <el-menu-item index="library">
               <span @click="handleSelect('library')">{{$t('nav.library')}}</span>
             </el-menu-item>
@@ -76,6 +79,8 @@
           window.open('https://wallet.nerve.network/')
         } else if (key === 'browser') {
           window.open('https://scan.nerve.network/')
+        } else if (key === 'desktop') {
+          window.open('https://github.com/NerveNetwork/nerve/releases')
         }
       },
 

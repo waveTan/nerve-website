@@ -11,6 +11,7 @@ const cn = {
     "wallet": "钱包",
     "browser": "浏览器",
     "about": "关于",
+    "desktop": "下载桌面版钱包",
   },
 
   "home": {
