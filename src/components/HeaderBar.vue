@@ -8,15 +8,30 @@
         <el-menu :default-active="activeIndex" mode="horizontal" active-text-color="#79a7e4" @select="handleSelect">
           <el-menu-item index="scene">{{$t('nav.scene')}}</el-menu-item>
           <el-menu-item index="partners">{{$t('partners.partners0')}}</el-menu-item>
-          <el-menu-item index="NerveDex">NerveDex</el-menu-item>
+          <el-menu-item index="NerveDex">NerveDEX</el-menu-item>
           <!-- <el-menu-item index="wiring">线路图</el-menu-item>-->
-          <el-menu-item index="wallet">{{$t('nav.wallet')}}</el-menu-item>
+          <!--<el-menu-item index="wallet">{{$t('nav.wallet')}}</el-menu-item>-->
+          <el-submenu index="wallet" :popper-append-to-body="false">
+            <template slot="title">{{$t('nav.wallet')}}</template>
+            <!--<el-menu-item index="desktop">
+              <span @click="handleSelect('desktop')">{{$t('nav.desktop')}}</span>
+            </el-menu-item>-->
+            <el-menu-item index="web-wallet">
+              <span @click="handleSelect('webWallet')">{{$t('nav.webWallet')}}</span>
+            </el-menu-item>
+            <el-menu-item index="light-wallet">
+              <span @click="handleSelect('desktop')">{{$t('nav.desktop')}}</span>
+            </el-menu-item>
+          </el-submenu>
+
+
+
           <el-menu-item index="browser">{{$t('nav.browser')}}</el-menu-item>
           <el-submenu index="2" :popper-append-to-body="false">
             <template slot="title">{{$t('nav.about')}}</template>
-            <el-menu-item index="desktop">
+            <!--<el-menu-item index="desktop">
               <span @click="handleSelect('desktop')">{{$t('nav.desktop')}}</span>
-            </el-menu-item>
+            </el-menu-item>-->
             <el-menu-item index="library">
               <span @click="handleSelect('library')">{{$t('nav.library')}}</span>
             </el-menu-item>
@@ -75,7 +90,7 @@
             "http://nervefiles.oss-us-west-1.aliyuncs.com/wp/Nerve_Whitepaper_EN.pdf"
             : "http://nerve-cn.oss-cn-hangzhou.aliyuncs.com/wp/Nerve_Whitepaper_ZH.pdf";
           window.open(url)
-        } else if (key === 'wallet') {
+        } else if (key === 'webWallet') {
           window.open('https://wallet.nerve.network/')
         } else if (key === 'browser') {
           window.open('https://scan.nerve.network/')

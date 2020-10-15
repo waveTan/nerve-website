@@ -12,6 +12,7 @@ const cn = {
     "browser": "浏览器",
     "about": "关于",
     "desktop": "下载桌面版钱包",
+    "webWallet":'进入网页钱包',
   },
 
   "home": {

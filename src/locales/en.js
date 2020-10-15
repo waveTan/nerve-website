@@ -12,6 +12,7 @@ const en = {
     "browser": "Explorer",
     "about": "About",
     "desktop": "Download Light Wallet",
+    "webWallet":'Access Web Wallet',
   },
 
   "home": {
