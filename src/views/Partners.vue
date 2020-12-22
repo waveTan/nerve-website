@@ -16,12 +16,15 @@
         <h2 class="title tc">{{$t('partners.partners2')}}</h2>
         <ul>
           <li class="fl click" @click="toUrl('https://www.nuls.io/')"><img src="@/assets/img/Nerve_03.png"></li>
-          <li class="fl click" @click="toUrl('https://usdi.co/')"><img src="@/assets/img/Nerve_04.png"></li>
           <li class="fl click" @click="toUrl('http://nabox.io/')"><img src="@/assets/img/Nerve_05.png"></li>
+          <li class="fl click" @click="toUrl('https://bscscan.com/')"><img src="@/assets/img/bsc.png"></li>
           <li class="fl click" @click="toUrl('https://okex.com/okchain')"><img src="@/assets/img/Nerve_06.png"></li>
-          <!--<li class="fl click" v-for="item of strategicData" :key="item.key" @click="toUrl(item.url)">
-            <img :src="item.imgUrl">
-          </li>-->
+          <li class="fl click" @click="toUrl('https://www.slowmist.com/')"><img src="@/assets/img/manwu.png"></li>
+          <li class="fl click" @click="toUrl('https://app.uniswap.org/#/swap')"><img src="@/assets/img/uniswap.png">
+          </li>
+          <li class="fl click" @click="toUrl('https://www.chainsguard.com/index.html#home')"><img
+                  src="@/assets/img/lianan.png"></li>
+          <li class="fl click" @click="toUrl('https://pancakeswap.finance/')"><img src="@/assets/img/pancake.png"></li>
         </ul>
       </div>
     </div>

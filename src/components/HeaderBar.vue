@@ -25,7 +25,6 @@
           </el-submenu>
 
 
-
           <el-menu-item index="browser">{{$t('nav.browser')}}</el-menu-item>
           <el-submenu index="2" :popper-append-to-body="false">
             <template slot="title">{{$t('nav.about')}}</template>
