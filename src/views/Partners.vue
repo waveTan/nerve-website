@@ -22,9 +22,13 @@
           <li class="fl click" @click="toUrl('https://www.slowmist.com/')"><img src="@/assets/img/manwu.png"></li>
           <li class="fl click" @click="toUrl('https://app.uniswap.org/#/swap')"><img src="@/assets/img/uniswap.png">
           </li>
-          <li class="fl click" @click="toUrl('https://www.chainsguard.com/index.html#home')"><img
-                  src="@/assets/img/lianan.png"></li>
+          <li class="fl click" @click="toUrl('https://www.chainsguard.com/index.html#home')">
+            <img src="@/assets/img/lianan.png">
+          </li>
           <li class="fl click" @click="toUrl('https://pancakeswap.finance/')"><img src="@/assets/img/pancake.png"></li>
+          <li class="fl click" @click="toUrl('https://circleswap.org/')"><img src="@/assets/img/circleswap.png"></li>
+          <li class="fl click" @click="toUrl('https://ht.mdex.com/')"><img src="@/assets/img/mdex.png"></li>
+          <li class="fl click" @click="toUrl('https://minidex.com/')"><img src="@/assets/img/miniswap.png"></li>
         </ul>
       </div>
     </div>
@@ -120,6 +124,7 @@
           img {
             width: 380px;
             height: 190px;
+            /* width: 90%;*/
           }
         }
       }
