@@ -35,6 +35,7 @@
       <div class="w1200">
         <h2 class="title tc">{{$t('partners.partners3')}}</h2>
         <ul>
+          <li class="fl click"><img src="@/assets/img/Nerve_14.png"></li>
           <li class="fl click" @click="toUrl('https://www.bitz.cm/')"><img src="@/assets/img/Nerve_09.png"></li>
           <!--<li class="fl click" @click="toUrl('https://www.tokenbetter.com/vc/')"><img src="@/assets/img/Nerve_10.png">
           </li>-->
