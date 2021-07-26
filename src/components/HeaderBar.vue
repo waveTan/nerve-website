@@ -2,7 +2,9 @@
   <div class="header">
     <div class="w1200">
       <div class="logo fl">
-        <div class="click img" @click="toUrl('home')"></div>
+        <div class="click img" @click="toUrl('home')">
+          <img :src="logo" alt="">
+        </div>
       </div>
       <div class="menu fl">
         <el-menu :default-active="activeIndex" mode="horizontal" active-text-color="#79a7e4" @select="handleSelect">
@@ -46,11 +48,15 @@
 </template>
 
 <script>
+import logo1 from "../assets/logo.svg";
+import logo2 from "../assets/logo-w.svg";
+
   export default {
     data() {
       return {
         activeIndex: '1', //导航连接
         lang: 'en', //语言
+        logo: document.body.offsetWidth > 1770 ? logo1 : logo2
       };
     },
     created() {
@@ -67,6 +73,12 @@
       }
       this.$i18n.locale = this.lang;
     },
+    mounted() {
+      window.addEventListener("resize", () => {
+        this.logo = document.body.offsetWidth > 1770 ? logo1 : logo2
+      })
+    },
+
     methods: {
 
       /**
@@ -134,14 +146,18 @@
 
     .logo {
       width: 15%;
-      margin: 20px 0 0 0;
+      margin: 12px 0 0 0;
       .img {
         width: 200px;
         height: 73px;
-        background: url("./../assets/logo.svg") no-repeat;
-        @media screen and (max-width: 1770px) {
-          background: url("./../assets/logo-w.svg") no-repeat;
+        img {
+          width: 100%;
+          height: 100%;
         }
+        // background: url("./../assets/logo.svg") no-repeat;
+        // @media screen and (max-width: 1770px) {
+        //   background: url("./../assets/logo-w.svg") no-repeat;
+        // }
       }
     }
     .menu {
